@@ -56,11 +56,11 @@ class Contact extends Component {
             Use the contact form to the right or send an e-mail. We would love to hear from you.
             </div>
             <div className="col md-6">
-            <div class="card" style={{padding: "2%", width: '80%'}}>
+            <div class="card" style={{padding: "2%", width: '100%'}}>
 
                 <form onSubmit={ (e) => this.formSubmit(e)}>
                 <div class="form-row">
-                    <div className="form-group col-md-12">
+                    <div className="form-group col-md-12" align="center">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10767.27689996!2d-52.7327106!3d47.5713056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c215e1fbd97e8b4!2sNeurofog+laboratory!5e0!3m2!1sen!2sca!4v1559933505838!5m2!1sen!2sca" width="400" height="250" frameborder="0" style={{border:"0"}} allowfullscreen title="map"></iframe>
                     </div>
                     <div class="form-group col-md-12">
