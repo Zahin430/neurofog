@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
 import StickyFooter from 'react-sticky-footer';
 
 const Footer = () => {
@@ -14,6 +16,8 @@ const Footer = () => {
     padding: "2px"
     }}>
         © All Rights Reserved 2019
+        {/* <br/>
+        <Link to ='/'>Neurofog</Link> */}
     </StickyFooter>
 
     );

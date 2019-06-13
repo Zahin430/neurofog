@@ -13,7 +13,7 @@ export default class Research extends Component {
           Here is a <a href={experiment}>Press</a> Sample experiment
         </p> */}
 
-        <p class="text-center" style = {{ fontSize: '20px'}}>The laboratory is also presently equipped with state-of-the-art facilities for eye tracking and electroencephalography (EEG) which are both used to extend knowledge of this research</p>
+        <p class="text-center" style = {{ fontSize: '20px' }}>The laboratory is also presently equipped with state-of-the-art facilities for eye tracking and electroencephalography (EEG) which are both used to extend knowledge of this research</p>
 
           <div class="card">
             <h5 class="card-header text-center">Research #1</h5>
