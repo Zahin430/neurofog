@@ -25,11 +25,12 @@ function App() {
       <Route exact path= '/involved' component={ Involved } />
       <Route exact path= '/contact' component={ Contact } />
     </Switch>
-    <Footer />
+
     </section>
 
 
     </Fragment>
+    <Footer />
     </Router>    
   );
 }

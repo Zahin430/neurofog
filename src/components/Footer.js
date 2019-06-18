@@ -1,11 +1,11 @@
 import React from 'react';
-
-import StickyFooter from 'react-sticky-footer';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+// import StickyFooter from 'react-sticky-footer';
 
 const Footer = () => {
     return (
-        <div className= "container-fluid">
-        <StickyFooter className="container">
+        <div>
+        {/* <StickyFooter className="container">
             <StickyFooter
         bottomThreshold={50}
         normalStyles={{
@@ -13,11 +13,12 @@ const Footer = () => {
         }}
         stickyStyles={{
         backgroundColor: "white",
-        }}/>
+        }}/> */}
+        <div className="footer">
             © All Rights Reserved 2019
-            {/* <br/>
-            <Link to ='/'>Neurofog</Link> */}
-        </StickyFooter>
+            <AnchorLink href='#navbar' style = {{paddingLeft: '0.5%'}}>Neurofog</AnchorLink>
+        </div>
+        {/* </StickyFooter> */}
         </div>
 
     );

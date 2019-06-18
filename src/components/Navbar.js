@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id ="navbar" className="navbar navbar-expand-lg navbar-dark bg-dark">
     {/* <img src="logo.png" alt=""/> */}
 
     <Link className="navbar-brand" style={{ textDecoration: 'none', color: 'white' }} to ="/" >NeuroFog</Link>

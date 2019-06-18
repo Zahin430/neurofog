@@ -9,6 +9,7 @@
     "jspsych": "^6.0.0",
     "jspsych-react": "^0.2.1",
     "react": "^16.8.6",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-animate-on-scroll": "^2.1.5",
     "react-animated-css": "^1.2.1",
     "react-background-slideshow": "^1.0.4",
