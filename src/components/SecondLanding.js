@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import researchMain from './img/researchMain.jpg'
 
 
 const SecondLanding = () => {
     return (
-
-    <div class="card-deck" style= {{padding: '5%'}}>
+    <div class="card-deck" style= {{padding: '5%' , width: '100%', height: '100%'}}>
     <div class="card" style= {{ width: '50%', height: '50%'}}>
     <img class="card-img-top" src="http://neurofog.ca/img/teamsmall.jpg" alt="Card1"/>
     <div class="card-body">
@@ -16,12 +16,12 @@ const SecondLanding = () => {
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card2"/>
+    <img class="card-img-top" style= {{ height: '67%' }} src={researchMain} alt="Card2"/>
     <div class="card-body">
       <h5 class="card-title">
       <Link className="btn btn-primary"style={{ textDecoration: 'none', color: 'white' }} to ="/team">Our Research</Link>
       </h5>
-      <p class="card-text">Dummy Card</p>
+      <p class="card-text">Take a look at what research goes on in our laboratory.</p>
     </div>
   </div>
   <div class="card">

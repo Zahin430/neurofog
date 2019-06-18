@@ -42,12 +42,12 @@ export default class Research extends Component {
       <br/>
 
       <div>
-        <h3 className = "mx-auto" style = {{textAlign: 'center' }}>List of publications</h3>
+        <h3 className = "mx-auto container" style = {{textAlign: 'center' }}>List of publications</h3>
         
-        <div className = "row">
+        <div className = "row" id = "list-publication">
 
           <div className="list-group col-sm w-100 p-3">
-            <a href="https://www.sciencedirect.com/science/article/pii/S2211368116300699" target="_blank" className="list-group-item list-group-item-action ">Looking Down the Barrel of a Gun: What Do We Know About the Weapon Focus Effect? <span className="text-muted">(2014)</span></a>
+            <a  href="https://www.sciencedirect.com/science/article/pii/S2211368116300699" target="_blank" className="list-group-item list-group-item-action ">Looking Down the Barrel of a Gun: What Do We Know About the Weapon Focus Effect? <span className="text-muted">(2014)</span></a>
             <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4886847/" target="_blank" className="list-group-item list-group-item-action">Familiarity, but not recollection, supports the between-subject production effect. <span className="text-muted">(2016)</span></a>
             <a href="https://www.ncbi.nlm.nih.gov/pubmed/26709589" target="_blank" className="list-group-item list-group-item-action">The representational consequences of intentional forgetting: Impairments to both the probability and fidelity of long-term memory. <span className="text-muted">(2016)</span></a>
             <a href="https://www.ncbi.nlm.nih.gov/pubmed/24853535" target="_blank" className="list-group-item list-group-item-action">Effects of distinctive encoding on correct and false memory: A meta-analytic review of costs and benefits and their origins in the DRM paradigm. <span className="text-muted">(2015)</span></a>

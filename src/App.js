@@ -17,16 +17,18 @@ function App() {
     <Fragment>
     <Navbar />
     <Route exact path= '/' component={ Landing } />
-    <section className="container">
+    <section>
     <Switch>
+
       <Route exact path= '/team' component={ Team } />
       <Route exact path= '/research' component={ Research } />
       <Route exact path= '/involved' component={ Involved } />
       <Route exact path= '/contact' component={ Contact } />
     </Switch>
+    <Footer />
     </section>
 
-    <Footer />
+
     </Fragment>
     </Router>    
   );

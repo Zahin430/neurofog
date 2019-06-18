@@ -8,7 +8,7 @@ const Navbar = () => {
 
     <Link className="navbar-brand" style={{ textDecoration: 'none', color: 'white' }} to ="/" >NeuroFog</Link>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+      <ul className="navbar-nav ml-auto mt-lg-0">
         <li className="nav-item">
             <Link className="nav-link" style={{ textDecoration: 'none', color: 'white' }} to ="/research">Our Research</Link>      
         </li>

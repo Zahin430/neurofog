@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
-#listItem {
-  fontColor: black;
+#list-publication {
+  color: black;
+  padding: 2%;
 }
