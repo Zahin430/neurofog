@@ -56,6 +56,8 @@ class Contact extends Component {
                     <br/>
                     Use the contact form to the right or send an e-mail. We would love to hear from you.
                     </div>
+
+                    
                     <div className="col md-6">
                     <div class="card" style={{padding: "2%", width: '100%'}}>
 

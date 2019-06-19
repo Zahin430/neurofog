@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import icon from './img/favicon-32x32.png'
 
 const Navbar = () => {
     return (
     <nav id ="navbar" className="navbar navbar-expand-lg navbar-dark bg-dark">
-    {/* <img src="logo.png" alt=""/> */}
 
+    {/* <img src={icon}  alt="icon"/> */}
     <Link className="navbar-brand" style={{ textDecoration: 'none', color: 'white' }} to ="/" >NeuroFog</Link>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul className="navbar-nav ml-auto mt-lg-0">

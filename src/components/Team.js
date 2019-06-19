@@ -19,15 +19,6 @@ const Team = () => {
                 <h4 class="font-weight-bold mb-3">Jonathan Fawcett</h4>
                 <h6 class="font-weight-bold grey-text mb-3">Lab Director | Assistant Professor</h6>
                 <p class="grey-text">Dr. Fawcett is the owner and oporator of the Neuro Fog laboratory. He is currently an Assisant Professor at MUN and has been for the last 3 years.</p>
-                <a class="p-2 fa-lg fb-ic" href="#!">
-                  <i class="fab fa-facebook-f"> </i>
-                </a>
-                <a class="p-2 fa-lg tw-ic" href="#!">
-                  <i class="fab fa-twitter"> </i>
-                </a>
-                <a class="p-2 fa-lg dribbble-ic" href="#!">
-                  <i class="fab fa-dribbble"> </i>
-                </a>
               </div>
             </div>
 
@@ -42,17 +33,6 @@ const Team = () => {
                 <h6 class="font-weight-bold grey-text mb-3">Photographer</h6>
                 <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
                   tenetur.</p>
-
-                <a class="p-2 fa-lg fb-ic" href="#!">
-                  <i class="fab fa-facebook-f"> </i>
-                </a>
-                <a class="p-2 fa-lg yt-ic" href="#!">
-                  <i class="fab fa-youtube"> </i>
-                </a>
-                <a class="p-2 fa-lg ins-ic" href="#!">
-                  <i class="fab fa-instagram"> </i>
-                </a>
-
               </div>
             </div>     
         </div>
@@ -70,18 +50,6 @@ const Team = () => {
         <h6 class="font-weight-bold grey-text mb-3">Web Developer</h6>
         <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
           tenetur.</p>
-
-        <a class="p-2 fa-lg fb-ic">
-          <i class="fab fa-facebook-f"> </i>
-        </a>
-  
-        <a class="p-2 fa-lg tw-ic">
-          <i class="fab fa-twitter"> </i>
-        </a>
-
-        <a class="p-2 fa-lg git-ic">
-          <i class="fab fa-github"> </i>
-        </a>
       </div>
     </div>
 
@@ -98,17 +66,6 @@ const Team = () => {
         <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
           tenetur.</p>
 
-        <a class="p-2 fa-lg gplus-ic">
-          <i class="fab fa-google-plus-g"> </i>
-        </a>
-
-        <a class="p-2 fa-lg li-ic">
-          <i class="fab fa-linkedin-in"> </i>
-        </a>
-
-        <a class="p-2 fa-lg email-ic">
-          <i class="fas fa-envelope"> </i>
-        </a>
       </div>
     </div>
   </div>
@@ -125,18 +82,6 @@ const Team = () => {
         <h6 class="font-weight-bold grey-text mb-3">Web Developer</h6>
         <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
         tenetur.</p>
-
-        <a class="p-2 fa-lg fb-ic">
-        <i class="fab fa-facebook-f"> </i>
-        </a>
-
-        <a class="p-2 fa-lg tw-ic">
-        <i class="fab fa-twitter"> </i>
-        </a>
-
-        <a class="p-2 fa-lg git-ic">
-        <i class="fab fa-github"> </i>
-        </a>
     </div>
     </div>
 
@@ -152,18 +97,6 @@ const Team = () => {
         <h6 class="font-weight-bold grey-text mb-3">Front-end Developer</h6>
         <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
         tenetur.</p>
-
-        <a class="p-2 fa-lg gplus-ic">
-        <i class="fab fa-google-plus-g"> </i>
-        </a>
-
-        <a class="p-2 fa-lg li-ic">
-        <i class="fab fa-linkedin-in"> </i>
-        </a>
-
-        <a class="p-2 fa-lg email-ic">
-        <i class="fas fa-envelope"> </i>
-        </a>
     </div>
     </div>
     </div>

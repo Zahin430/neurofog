@@ -12,14 +12,10 @@ export default class Research extends Component {
       
         <br/>
 
-        {/* <p>
-          Here is a <a href={experiment}>Press</a> Sample experiment
-        </p> */}
-
         <p className="text-center" style = {{ fontSize: '20px' }}>The laboratory is also presently equipped with state-of-the-art facilities for eye tracking and electroencephalography (EEG) which are both used to extend knowledge of this research</p>
 
-          <div className="card mx-auto mw-100" >
-            <img className="card-img-top" style = {{ objectFit: 'contain' ,width: '100%', height: '100%' }} src={Pupillometry} alt="Research" />
+          <div className="card mx-auto mw-100" style={{ width: '50%', height: '50%'}} >
+            <img className="card-img-top" style = {{ objectFit: 'contain' }} src={Pupillometry} alt="Research" />
             <h4 className="card-header text-center">Pupillometry</h4>
             <div className="card-body">
                 <p className="card-text" style = {{ fontSize: '16px'}}>Pupillometry is an unobtrusive psychophysiological techniques used to measure pupil size and reactivity. There is a great importance for pupil evaluation in cognitive research. Changes in pupil diameter in particular have been found to be a useful index of mental processing in humans. The more focused we are on something, the larger our pupils become. Many of our current studies involve measuremnts with a pupillometric instrument that can be found in our main laboratory. This device uses infrared light and special cameras to track and record the position of each eye, where it is looking on the computer screen and the size of the pupil. Together, these measurements allow us to monitor when and to what degree participants are attending to any given item on the screen.</p>
@@ -56,7 +52,7 @@ export default class Research extends Component {
 
           <div className="list-group col-sm w-100 p-3">
             <a href="https://www.ncbi.nlm.nih.gov/pubmed/24064067" target="_blank" className="list-group-item list-group-item-action">Electrophysiological markers of biological motion and human form recognition. <span className="text-muted">(2014)</span></a>
-            <a href="https://www.ncbi.nlm.nih.gov/pubmed/23884689" target="_blank" className="list-group-item list-group-item-action"><p>The costs and benefits of production in recognition. <span className="text-muted">(2014)</span> </p></a>
+            <a href="https://www.ncbi.nlm.nih.gov/pubmed/23884689" target="_blank" className="list-group-item list-group-item-action">The costs and benefits of production in recognition. <span className="text-muted">(2014)</span></a>
             <a href="https://www.sciencedirect.com/science/article/pii/S0001691813001571" target="_blank" className="list-group-item list-group-item-action">Event-method directed forgetting: Forgetting a video segment is more effortful than remembering it. <span className="text-muted">(2013)</span></a>
             <a href="https://www.ncbi.nlm.nih.gov/pubmed/23656845" target="_blank" className="list-group-item list-group-item-action">Risk of obsessive-compulsive disorder in pregnant and post-partum women: A meta-analysis <span className="text-muted">(2013)</span></a>
             <a href="https://www.sciencedirect.com/science/article/pii/S0001691812001680" target="_blank" className="list-group-item list-group-item-action ">The production effect benefits performance in between-subject designs: A meta-analysis. <span className="text-muted">(2013)</span></a>
