@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import researchMain from './img/researchMain.jpg'
-import participation from './img/participation.jpeg'
+// import participation from './img/participation.jpeg'
 
 
 const SecondLanding = () => {

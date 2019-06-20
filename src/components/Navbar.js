@@ -8,19 +8,24 @@ const Navbar = () => {
 
     {/* <img src={icon}  alt="icon"/> */}
     <Link className="navbar-brand" style={{ textDecoration: 'none', color: 'white' }} to ="/" >NeuroFog</Link>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ml-auto mt-lg-0">
         <li className="nav-item">
-            <Link className="nav-link" style={{ textDecoration: 'none', color: 'white' }} to ="/research">Our Research</Link>      
+            <Link className="nav-link" style={{ textDecoration: 'none', color: 'white' }} to ="/research">Our Research <span class="sr-only">(current)</span></Link>      
         </li>
         <li className="nav-item">
           <Link className="nav-link" style={{ textDecoration: 'none', color: 'white' }} to ="/team">Our Team</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link" style={{ textDecoration: 'none', color: 'white' }} to ="/involved">Get Involved</Link>
+          <Link className="nav-link" style={{ textDecoration: 'none', color: 'white' }} to ="/involved">Get Involved</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link" style={{ textDecoration: 'none', color: 'white' }} to ="/contact">Contact Us</Link>
+          <Link className="nav-link" style={{ textDecoration: 'none', color: 'white' }} to ="/contact">Contact Us</Link>
         </li>
         <li className="nav-item">
         {/* <a className="nav-link" href="#!">
@@ -29,9 +34,6 @@ const Navbar = () => {
         </li>  
       </ul>
     </div>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
     </nav>
     );
 }
