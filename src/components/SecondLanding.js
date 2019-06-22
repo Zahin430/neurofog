@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import researchMain from './img/researchMain.jpg'
-// import participation from './img/participation.jpeg'
+import participation from './img/participation_2.jpeg'
 
 
 const SecondLanding = () => {
@@ -20,17 +20,18 @@ const SecondLanding = () => {
     <img class="card-img-top" style= {{ height: '67%' }} src={researchMain} alt="Card2"/>
     <div class="card-body">
       <h5 class="card-title">
-      <Link className="btn btn-primary" style={{ textDecoration: 'none', color: 'white' }} to ="/team">Our Research</Link>
+      <Link className="btn btn-primary" style={{ textDecoration: 'none', color: 'white' }} to ="/research">Our Research</Link>
       </h5>
       <p class="card-text">Take a look at what research goes on in our laboratory.</p>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card3"/>
+    <img class="card-img-top" src={participation} style={{height: "67%"}} alt="Card3"/>
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <Link className="btn btn-primary" style={{ textDecoration: 'none', color: 'white' }} to ="/team">Become a Participant</Link>
-      <p class="card-text">Dummy Card</p>
+      <h5>
+        <Link className="btn btn-primary" style={{ textDecoration: 'none', color: 'white' }} to ="/involved">Become a Participant</Link>
+      </h5>
+      <p class="card-text">Interested in participting in studies? Click to find out more!</p>
     </div>
   </div>
 </div>
