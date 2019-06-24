@@ -1,6 +1,7 @@
 import React from 'react';
 import juliarose21 from './img/juliarose21.jpg';
 import jon from './img/jon.jpg';
+import ian from './img/iain2.jpg';
 
 const Team = () => {
     return (
@@ -43,7 +44,7 @@ const Team = () => {
   
     <div class="col-xl-6 col-lg-12 mb-xl-0 mb-5 d-md-flex justify-content-between">
       <div class="avatar mb-md-0 mb-4 mx-4">
-        <img src={jon} class="rounded z-depth-1" alt="Sample avatar"/>
+        <img src = "#!" class="rounded z-depth-1" style = {{ width: "40%", height: "60%" }} alt="Sample avatar"/>
       </div>
       <div class="mx-4">
         <h4 class="font-weight-bold mb-3">Anna Deynah</h4>

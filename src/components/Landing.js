@@ -1,5 +1,7 @@
 import React from 'react';
 import SecondLanding from './SecondLanding';
+
+
 const Landing = () => {
     return (
         <div>
