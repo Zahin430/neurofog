@@ -8,7 +8,7 @@ export default class Research extends Component {
     return (
       <div>
       <div className="container">
-            <h3 className="text-center">{this.props.text}</h3>
+            <h3 className="text-center">Research</h3>
             <p style = {{ fontSize: '20px' }}>Dr. Fawcett and his team conduct a wide variety of research in Human Cognition. Primairly, the lab focusus on understanding the cognitive and neural basis of controlling unwanted thoughts or memories. For example, how is it that some people can be reminded of an unwanted experience and brush it off whereas others receive a similar reminder and find themselves caught ruminating over it for days? Dr. Fawcett's past work suggests that variation in the relative strength of certain mental control processes across individuals play a role. Some people are simply better at controlling unwanted memories – as measured in the laboratory – and those individuals tend to be less affected by intrusions of the manner described above. The team studies study this phenomenon in both general and clinical populations.</p>
 
 

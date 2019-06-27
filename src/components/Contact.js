@@ -51,12 +51,25 @@ class Contact extends Component {
         return(
         <div className = "container">
                 <div className="row">
-                    <div className="col md-6" style={{paddingTop: '10%'}}>
+                    <div className="col md-6" style={{paddingTop: '5%', fontSize: "120%"}}>
                     Want to work with us? Volunteer? Participate in our studies? Ask us more about what we do? 
                     <br/>
                     Use the contact form to the right or send an e-mail. We would love to hear from you.
+
+                    <br/>
+
+                    <br/>
+                    <h3>Get In Touch</h3>
+                    <hr/>
+                    
+                    <i class="fab fa-facebook" style = {{color: "#3b5998",  padding: "2px", fontSize: "30px"}}></i> <br/> <hr/>
+                    <i class="fas fa-home" style = {{fontSize: "28px", padding: "2px", color: "green"}}></i> <br/> <hr/>
+                    <i class="fas fa-phone" style = {{fontSize: "28px", padding: "2px", color: "brown"}}></i> <br/> <hr/>
+                    <i class="fas fa-envelope" style = {{fontSize: "28px", padding: "2px", color: "red"}}></i>
+                    
                     </div>
 
+                 
                     
                     <div className="col md-6">
                     <div class="card" style={{padding: "2%", width: '100%'}}>
