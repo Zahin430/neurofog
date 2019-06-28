@@ -31,7 +31,7 @@ export default class Research extends Component {
                 <div className="card mx-auto mw-100 " style={{ width: '50%', height: '50%' }}>
                   <img className="card-img-top" style = {{ objectFit: 'contain' }} src={electron} alt="Research" />
                   <h5 className="card-header text-center">Electroencephalography (EEG)</h5>
-                  <div className="card-body" style = {{ paddingBottom: "10px" }}>
+                  <div className="card-body" style = {{ paddingBottom: "15px" }}>
                       <p className="card-text" style = {{ fontSize: '16px'}} >EEG is an electrophysiological monitoring method to record electrical activity of the brain. This instrument has been newly adopted into the Neuro Fog laboratory! It is a noninvasive measuremnt which uses eletrodes placed on one's scalp to measures voltage fluctuations resulting from ionic current within the neurons of the brain. Future projects will make use of this EEG machine.</p>
                   </div>
               </div>

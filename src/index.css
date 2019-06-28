@@ -49,3 +49,7 @@ code {
     content: "";
     z-index: -1;
 }
+
+.navbar-brand, .nav-link {
+  color: black
+} 
