@@ -8,7 +8,7 @@ const Navbar = () => {
 
     <img src={icon} alt="icon" id = "navbar-icon"/>
    
-    <Link className="navbar-brand" style={{ textDecoration: 'none' }} to ="/" >NeuroFog</Link>
+    <Link className="navbar-brand" style={{ textDecoration: 'none', letterSpacing: '5px' }} to ="/" >NEUROFOG</Link>
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

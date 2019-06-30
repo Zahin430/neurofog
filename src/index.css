@@ -53,18 +53,22 @@ code {
 .nav-item {
   font-size: 110%;
   padding-left: 15px;
-  font-weight: 500
+  font-weight: 500;
+  letter-spacing: 2px;
 }
+
+
+/* -------------------Landing styles ---------------------------*/
 
 .main {
   display: relative; 
 }
-.crossfade > figure {
-  animation: imageAnimation 30s linear infinite 0s;
-  backface-visibility: hidden;
-  background-size: cover;
+.crossfade  {
+  /* animation: imageAnimation 30s linear infinite 0s; */
+  /* backface-visibility: hidden; */
+  /* color: transparent; */
+  /* background-size: cover;
   background-position: center ;
-  color: transparent;
   height: 100%;
   left: 0px;
   opacity: 0;
@@ -73,18 +77,63 @@ code {
   bottom: 0;
   width: 100%;
   z-index: -1;
-  min-height: 700px; 
-
+ */
+  min-height: 650px; 
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url('./components/img/Background.jpg');
+  opacity: 1;
 }
 
 #landing {
-  margin-top: 800px;
+  margin-top: 50px;
+}
+
+#main-tag{
+  margin-top: 100px;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  font-size: 5em;
+  letter-spacing: 8px;
+  border: 2px solid white;
+  box-shadow: #ffffff;
+}
+
+#tag {
+ visibility: hidden; 
+ color: white;
+ position: absolute;
+ font-size: .8em;
+ font-weight: bold;
+}
+
+.scroll {
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+
+.scroll:hover #tag{
+  visibility: visible;
+  opacity: 1;
+  margin-left: 100%;
+  margin-top: 60px;
 }
 
 
+.fa-chevron-down{
+  color: white;
+  font-size: 3em;
+  margin-left: 100%;
+  margin-top: 100px;
+  position: absolute;
+
+}
+
+/* 
 .crossfade > figure:nth-child(1) { background-image: url('./components/img/battery.jpg'); }
 
 .crossfade > figure:nth-child(2) {
@@ -125,4 +174,4 @@ imageAnimation {  0% {
  100% {
  opacity: 0
 }
-}
+} */
