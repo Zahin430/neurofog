@@ -1,19 +1,42 @@
 import React from 'react';
 import SecondLanding from './SecondLanding';
+import BackgroundSlideshow from 'react-background-slideshow'
 
+import image1 from './img/battery.jpg'
+import image2 from './img/harbour.jpg'
 
 const Landing = () => {
     return (
-        <div>
-        <div id = "landing">
+        <div className = "main">
+
+            <div class="crossfade">
+
+                <figure></figure>
+
+                <figure></figure>
+
+                <figure></figure>
+
+                <figure></figure>
+
+                <figure></figure>
+
+            </div>
+
+
+
+            <div id = "landing">
             <div className="container">
                 <img className="rounded mx-auto d-block" src="http://www.neurofog.ca/img/logo.png" alt="main"/>
             </div>
-            <p id ="main-header" className="text text-center container">The Neurofog laboratory, directed by Dr. Jonathan Fawcett, is a human cognition laboratory in the department of Psychology at Memorial University of Newfoundland. The lab specializes in human memory and extends beyond behvaioural measurements, applying research with pupillometry and EEG. </p>
-        </div>
-        <div>
-            <SecondLanding />
-        </div>
+                <p id ="main-header" className="text text-center container">The Neurofog laboratory, directed by Dr. Jonathan Fawcett, is a human cognition laboratory in the department of Psychology at Memorial University of Newfoundland. The lab specializes in human memory and extends beyond behvaioural measurements, applying research with pupillometry and EEG. </p>
+            </div>
+
+                
+                <div>
+                    <SecondLanding />
+                </div>
+
         </div>
             
     );
