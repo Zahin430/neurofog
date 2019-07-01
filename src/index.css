@@ -17,13 +17,7 @@ code {
   padding: 2%;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: black;
-}
+
 
 #main-header {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -51,12 +45,23 @@ code {
 }
 
 .nav-item {
-  font-size: 110%;
+  font-size: 16px;
   padding-left: 15px;
   font-weight: 500;
   letter-spacing: 2px;
 }
 
+/*------------------- FOOTER STYLES --------------------------- */
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  padding: 4px;
+  background-color: whitesmoke;
+}
 
 /* -------------------Landing styles ---------------------------*/
 
@@ -114,6 +119,7 @@ code {
   width: 50%;
   height: 50%;
   position: relative;
+  /* scroll-behavior: smooth; */
 }
 
 .scroll:hover #tag{
@@ -130,8 +136,18 @@ code {
   margin-left: 100%;
   margin-top: 100px;
   position: absolute;
-
 }
+
+
+#landing > img {
+  width: 60%;
+  height: 60%
+}
+
+/* ---------------RESEARCH PAGE-------------------- */
+
+
+
 
 /* 
 .crossfade > figure:nth-child(1) { background-image: url('./components/img/battery.jpg'); }

@@ -1,9 +1,9 @@
 import React from 'react';
 import SecondLanding from './SecondLanding';
-import ScrollableAnchor from 'react-scrollable-anchor'
+import ScrollableAnchor from 'react-scrollable-anchor';
 // import BackgroundSlideshow from 'react-background-slideshow'
 
-// import image1 from './img/battery.jpg'
+import logo from './img/logo.png'
 // import image2 from './img/harbour.jpg'
 
 const Landing = () => {
@@ -19,7 +19,7 @@ const Landing = () => {
 
                 <div class ="scroll">
                     <p id = "tag" style ={{ letterSpacing: '3px' }} className="text-center">Scroll Down!</p>
-                        <a href="#landing">
+                        <a href="#section1">
                             <i class="fas fa-chevron-down text-center"></i>
                         </a>
                 </div>
@@ -27,15 +27,17 @@ const Landing = () => {
 
             </div>
 
-
-            <ScrollableAnchor id={'landing'}>
-                <div id = "landing">
-                <div className="container">
-                    <img className="rounded mx-auto d-block" src="http://www.neurofog.ca/img/logo.png" alt="main"/>
+            <ScrollableAnchor id={'section1'}>
+            <div id = "landing">
+                <div id = "cover" className="container">
+                    <img className="rounded mx-auto d-block" style = {{width: "300px", height: "250px"}} src={logo} alt="main"/>
                 </div>
                     <p id ="main-header" className="text text-center container">The Neurofog laboratory, directed by Dr. Jonathan Fawcett, is a human cognition laboratory in the department of Psychology at Memorial University of Newfoundland. The lab specializes in human memory and extends beyond behvaioural measurements, applying research with pupillometry and EEG. </p>
                 </div>
             </ScrollableAnchor>
+
+
+
 
 
 

@@ -8,7 +8,9 @@ export default class Research extends Component {
     return (
       <div>
       <div className="container">
-            <h2 className="text-center" >Research</h2>
+            
+            <h2 className="text-center" style={{letterSpacing: '3px'}} >RESEARCH</h2>
+            
             <p style = {{ fontSize: '20px' }}>Dr. Fawcett and his team conduct a wide variety of research in Human Cognition. Primairly, the lab focusus on understanding the cognitive and neural basis of controlling unwanted thoughts or memories. For example, how is it that some people can be reminded of an unwanted experience and brush it off whereas others receive a similar reminder and find themselves caught ruminating over it for days? Dr. Fawcett's past work suggests that variation in the relative strength of certain mental control processes across individuals play a role. Some people are simply better at controlling unwanted memories – as measured in the laboratory – and those individuals tend to be less affected by intrusions of the manner described above. The team studies study this phenomenon in both general and clinical populations.</p>
 
 
@@ -18,9 +20,8 @@ export default class Research extends Component {
 
             <p className="text-center" style = {{ fontSize: '20px' }}>The laboratory is also presently equipped with state-of-the-art facilities for eye tracking and electroencephalography (EEG) which are both used to extend knowledge of this research</p>
 
-          <div className = "row">
             
-                <div className="card mx-auto mw-100" style={{ width: '50%', height: '50%'}} >
+                <div className="card" style={{ marginLeft: '15%',width: '70%', height: '50%'}} >
                   <img className="card-img-top" style = {{ objectFit: 'contain' }} src={Pupillometry} alt="Research" />
                   <h4 className="card-header text-center">Pupillometry</h4>
                   <div className="card-body">
@@ -30,32 +31,23 @@ export default class Research extends Component {
 
                   <br />
 
-                <div className="card mx-auto mw-100 " style={{ width: '50%', height: '50%' }}>
+                <div className="card mx-auto mw-100 " style={{ width: '70%', height: '20%'}}>
                   <img className="card-img-top" style = {{ objectFit: 'contain' }} src={electron} alt="Research" />
                   <h5 className="card-header text-center">Electroencephalography (EEG)</h5>
                   <div className="card-body" style = {{ paddingBottom: "15px" }}>
                       <p className="card-text" style = {{ fontSize: '16px'}} >EEG is an electrophysiological monitoring method to record electrical activity of the brain. This instrument has been newly adopted into the Neuro Fog laboratory! It is a noninvasive measuremnt which uses eletrodes placed on one's scalp to measures voltage fluctuations resulting from ionic current within the neurons of the brain. Future projects will make use of this EEG machine.</p>
                   </div>
-              </div>
-            
-          </div>
+                </div>  
 
 
 
         </div>
           
-          <br/>
-
-         
-
-      <br/>
-
-      <br/>
 
       <div>
         <h3 className = "mx-auto" style = {{textAlign: 'center' }}>List of publications</h3>
         
-        <div className = "row" id = "list-publication">
+        <div className = "mx-auto row" id = "list-publication">
 
           <div className="list-group col-sm w-100 p-3">
             <a  href="https://www.sciencedirect.com/science/article/pii/S2211368116300699" target="_blank" className="list-group-item list-group-item-action ">Looking Down the Barrel of a Gun: What Do We Know About the Weapon Focus Effect? <span className="text-muted">(2014)</span></a>
@@ -75,7 +67,7 @@ export default class Research extends Component {
 
       </div>
       </div>
-    </div>
+      </div>
     );
   }
 }

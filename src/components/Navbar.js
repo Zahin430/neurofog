@@ -4,14 +4,24 @@ import icon from './img/icon.png'
 
 const Navbar = () => {
     return (
-    <nav id ="navbar" className="navbar navbar-expand-lg bg-custom">
+    <nav id ="navbar" className="navbar navbar-expand-lg navbar-light bg-custom shadow-sm rounded sticky-top">
 
     <img src={icon} alt="icon" id = "navbar-icon"/>
    
     <Link className="navbar-brand" style={{ textDecoration: 'none', letterSpacing: '5px' }} to ="/" >NEUROFOG</Link>
     
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button 
+      class="navbar-toggler collapsed" 
+      style={{color: 'black'}} 
+      type="button" 
+      data-toggle="collapse" 
+      data-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span>
+      <i class="fas fa-bars"></i>
+      </span>
     </button>
     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
