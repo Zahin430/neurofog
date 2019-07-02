@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor'
+// import ScrollableAnchor from 'react-scrollable-anchor'
 
 class Involved extends Component  {
     render() {

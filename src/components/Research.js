@@ -6,7 +6,7 @@ import electron from './img/electro.jpg'
 export default class Research extends Component {
   render() {
     return (
-      <div>
+      <div className = "research">
         <div class="research-head">
             <div className= "container">
                 <p id = "research-text" style ={{ letterSpacing: '8px',paddingTop: "50px" }} className="text-center">RESEARCH</p>
