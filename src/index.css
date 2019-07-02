@@ -155,6 +155,131 @@ code {
 }
 
 
+/*--------------- INVOLVED PAGE ---------------- */
+
+
+.main {
+  display: relative; 
+}
+.involved-landing  {
+  min-height: 650px; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./components/img/involvement.jpg');
+  opacity: 1;
+}
+
+#landing {
+  margin-top: 50px;
+}
+
+#involved-text{
+  margin-top: 100px;
+  font-family: brandon-grotesque, sans-serif;
+  padding-top: 100px;
+  font-style: normal;
+  font-weight: 100;
+  color: white;
+  font-size: 6em;
+  letter-spacing: 8px;
+  box-shadow: #ffffff;
+}
+
+#tag {
+ visibility: hidden; 
+ color: white;
+ position: absolute;
+ font-size: .8em;
+ font-weight: bold;
+}
+
+.scroll {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  /* scroll-behavior: smooth; */
+}
+
+.scroll:hover #tag{
+  visibility: visible;
+  opacity: 1;
+  margin-left: 100%;
+  margin-top: 60px;
+}
+
+
+.fa-chevron-down{
+  color: white;
+  font-size: 3em;
+  margin-left: 100%;
+  margin-top: 100px;
+  position: absolute;
+}
+
+
+/* ------------ RESEARCH PAGE ----------------- */
+
+
+.main {
+  display: relative; 
+}
+.research-head  {
+  min-height: 650px; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./components/img/brain_research.jpg');
+  opacity: 1;
+}
+
+#landing {
+  margin-top: 50px;
+}
+
+#research-text{
+  margin-top: 100px;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: white;
+  font-size: 6em;
+  letter-spacing: 8px;
+  box-shadow: #ffffff;
+}
+
+#tag {
+ visibility: hidden; 
+ color: white;
+ position: absolute;
+ font-size: .8em;
+ font-weight: bold;
+}
+
+.scroll {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  /* scroll-behavior: smooth; */
+}
+
+.scroll:hover #tag{
+  visibility: visible;
+  opacity: 1;
+  margin-left: 100%;
+  margin-top: 60px;
+}
+
+
+.fa-chevron-down{
+  color: white;
+  font-size: 3em;
+  margin-left: 100%;
+  margin-top: 100px;
+  position: absolute;
+}
+
+
 /* 
 .crossfade > figure:nth-child(1) { background-image: url('./components/img/battery.jpg'); }
 
