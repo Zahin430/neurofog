@@ -8,7 +8,7 @@ const Team = () => {
     return (
         <div> 
         <section className="team-section my-5">
-          <h2 className="h1-responsive font-weight-bold text-center my-5">NEURO FOG LABORATORY</h2>
+          <h2 className="h1-responsive text-center my-5" style = {{ letterSpacing: '2px' }}>NEURO FOG LABORATORY</h2>
           <p className="grey-text text-center w-responsive mx-auto mb-5">Current members of the labratory.</p>
         
           <div className="row text-center text-md-left">
@@ -27,7 +27,7 @@ const Team = () => {
 
 
             <div className="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
-              <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: "60%", height: "90%" }}>
+              <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: "60%", height: "95%" }}>
                 <img src={rachelle}  className="rounded z-depth-1" style = {{ width: "100%", height: "100%" }} alt="Sample avatar"/>
               </div>
               <div className="mx-4">
@@ -44,14 +44,13 @@ const Team = () => {
 
   
     <div className="col-xl-6 col-lg-12 mb-xl-0 mb-5 d-md-flex justify-content-between">
-      <div className="avatar mb-md-0 mx-4 team" style = {{ width: "50%", height: "100%" }}>
+      <div className="avatar mb-md-0 mx-4 team" style = {{ width: "100%", height: "100%" }}>
         <img src = {ian} className = "rounded z-depth-1" style = {{ width: "100%", height: "100%" }} alt="Sample avatar"/>
       </div>
       <div className="mx-4">
-        <h4 className="font-weight-bold mb-3">Anna Deynah</h4>
-        <h6 className="font-weight-bold grey-text mb-3">Web Developer</h6>
-        <p className="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
-          tenetur.</p>
+        <h4 className="font-weight-bold mb-3">Iain Gamba</h4>
+        <h6 className="font-weight-bold grey-text mb-3">Honors Student</h6>
+        <p className="grey-text">Iain is completing his BSc (Hons) in Behavioural Neuroscience with hops to persue Medicine. He is currently working on his Honours project with Dr. Fawcett.</p>
       </div>
     </div>
 
@@ -106,6 +105,35 @@ const Team = () => {
  
         
         </section>
+
+
+        <div className = "container">
+        <h3 className = "mx-auto" style = {{textAlign: 'center', color: 'brown', letterSpacing: '3px' }}>LAB ALUMNI</h3>
+        
+        <hr/>
+
+        <div className = "mx-auto row" id = "list-publication">
+
+          <div className="list-group col-sm w-100 p-3">
+           <p className="list-group-item">Jenny Tiller (Directed Studies/Volunteer)</p>
+           <p className="list-group-item">Gabby Hodder</p>
+           <p className="list-group-item">Lauren Peters (Volunteer)</p>
+           <p className="list-group-item">Rachel Hewitt (Volunteer)</p>
+           <p className="list-group-item">Emily Buchanan (Volunteer)</p>
+          </div>
+
+          <div className="list-group col-sm w-100 p-3">
+           <p className="list-group-item">Brittany Flood (Honours Student)</p>
+           <p className="list-group-item">Jillian Penney (Honours Student)</p>
+           <p className="list-group-item">Rabia Farmahan (Honours Student)</p>
+           <p className="list-group-item">Maryam Michael</p>
+           <p className="list-group-item">Marcus Alves (PhD student)</p>
+          </div>
+
+      </div>
+      </div>
+
+
         </div>
     )
 }

@@ -144,6 +144,10 @@ code {
   height: 60%
 }
 
+#cover {
+  padding-top: 100px;
+}
+
 /* ---------------TEAM PAGE-------------------- */
 
 .team {
