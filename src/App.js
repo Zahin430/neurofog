@@ -24,10 +24,10 @@ function App() {
       <Route exact path= '/research' component={ Research } />
       <Route exact path= '/involved' component={ Involved } />
       <Route exact path= '/contact' component={ Contact } />
-      <Footer />
 
     </Switch>
 
+    <Footer />
 
     </section>
 
