@@ -7,9 +7,21 @@ export default class Research extends Component {
   render() {
     return (
       <div>
+        <div class="research-head">
+            <div className= "container">
+                <p id = "research-text" style ={{ letterSpacing: '8px',paddingTop: "50px" }} className="text-center">RESEARCH</p>
+            </div>
+
+            <div class ="scroll" style ={{paddingTop: '120px'}}>
+                <p id = "tag" style ={{ letterSpacing: '3px' }} className="text-center">Scroll Down!</p>
+                    <a href="#section1">
+                        <i class="fas fa-chevron-down text-center"></i>
+                    </a>
+            </div>
+        </div>  
       <div className="container">
             
-            <h2 className="text-center" style={{letterSpacing: '3px'}} >RESEARCH</h2>
+            <h2 className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px'}} >RESEARCH</h2>
             
             <p style = {{ fontSize: '20px' }}>Dr. Fawcett and his team conduct a wide variety of research in Human Cognition. Primairly, the lab focusus on understanding the cognitive and neural basis of controlling unwanted thoughts or memories. For example, how is it that some people can be reminded of an unwanted experience and brush it off whereas others receive a similar reminder and find themselves caught ruminating over it for days? Dr. Fawcett's past work suggests that variation in the relative strength of certain mental control processes across individuals play a role. Some people are simply better at controlling unwanted memories – as measured in the laboratory – and those individuals tend to be less affected by intrusions of the manner described above. The team studies study this phenomenon in both general and clinical populations.</p>
 
