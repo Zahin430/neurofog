@@ -59,13 +59,16 @@ class Contact extends Component {
                     <br/>
 
                     <br/>
-                    <h3>Get In Touch</h3>
+                    <h3 style = {{  }}>Get In Touch</h3>
                     <hr/>
                     
-                    <i class="fab fa-facebook" style = {{color: "#3b5998",  padding: "2px", fontSize: "30px"}}></i> <br/> <hr/>
-                    <i class="fas fa-home" style = {{fontSize: "28px", padding: "2px", color: "green"}}></i> <br/> <hr/>
-                    <i class="fas fa-phone" style = {{fontSize: "28px", padding: "2px", color: "brown"}}></i> <br/> <hr/>
-                    <i class="fas fa-envelope" style = {{fontSize: "28px", padding: "2px", color: "red"}}></i>
+                    <i class="fab fa-facebook" style = {{color: "#3b5998",  padding: "2px", fontSize: "30px"}}></i>
+                    <span style ={{ letterSpacing: "1px", paddingLeft: ".4em"}}> <a href = "https://www.facebook.com/NeuroFog" target= "_blank">Neuro Fog Laboratory</a></span>
+                    <hr/>
+                    <i class="fas fa-home" style = {{fontSize: "28px", padding: "2px", color: "green"}}></i> <span style ={{ letterSpacing: "1px", paddingLeft: ".4em"}}>230 Elizabeth Ave. St. John's, Newfoundland</span> <br/> <hr/>
+                    <i class="fas fa-phone" style = {{fontSize: "28px", padding: "2px", color: "brown"}}></i> <span style ={{ letterSpacing: "1px", paddingLeft: ".4em"}}>+1 709 864 8020</span>  <br/> <hr/>
+                    <i class="fas fa-envelope" style = {{fontSize: "28px", padding: "2px", color: "red"}}></i> <span style ={{ letterSpacing: "1px", paddingLeft: ".4em"}}><a href="mailto:mun.memory.laboratory@gmail.com" target="_top">mun.memory.laboratory@gmail.com</a></span>
+
                     
                     </div>
 
