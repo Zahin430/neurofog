@@ -7,15 +7,15 @@ export default class Research extends Component {
   render() {
     return (
       <div className = "research">
-        <div class="research-head">
+        <div className="research-head">
             <div className= "container">
                 <p id = "research-text" style ={{ letterSpacing: '8px',paddingTop: "50px" }} className="text-center">RESEARCH</p>
             </div>
 
-            <div class ="scroll" style ={{paddingTop: '120px'}}>
+            <div className ="scroll" style ={{paddingTop: '120px'}}>
                 <p id = "tag" style ={{ letterSpacing: '3px' }} className="text-center">Scroll Down!</p>
                     <a href="#section1">
-                        <i class="fas fa-chevron-down text-center"></i>
+                        <i className="fas fa-chevron-down text-center"></i>
                     </a>
             </div>
         </div>  

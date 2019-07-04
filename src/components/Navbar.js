@@ -11,7 +11,7 @@ const Navbar = () => {
     <Link className="navbar-brand" style={{ textDecoration: 'none', letterSpacing: '5px' }} to ="/" >NEUROFOG</Link>
     
     <button 
-      class="navbar-toggler collapsed" 
+      className="navbar-toggler collapsed" 
       style={{color: 'black'}} 
       type="button" 
       data-toggle="collapse" 
@@ -20,14 +20,14 @@ const Navbar = () => {
       aria-expanded="false" 
       aria-label="Toggle navigation">
       <span>
-      <i class="fas fa-bars"></i>
+      <i className="fas fa-bars"></i>
       </span>
     </button>
     
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul id = "nav-content" className="navbar-nav ml-auto mt-lg-0">
         <li className="nav-item">
-            <Link className="nav-link" style={{ textDecoration: 'none' }} to ="/research">OUR RESEARCH<span class="sr-only">(current)</span></Link>      
+            <Link className="nav-link" style={{ textDecoration: 'none' }} to ="/research">OUR RESEARCH<span className="sr-only">(current)</span></Link>      
         </li>
         <li className="nav-item">
           <Link className="nav-link" style={{ textDecoration: 'none'  }} to ="/team">OUR TEAM</Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
         {/* <a className="nav-link" href="#!">
-        <i class="fab fa-facebook"></i>
+        <i className="fab fa-facebook"></i>
         </a> */}
         </li>  
       </ul>

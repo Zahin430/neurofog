@@ -10,17 +10,17 @@ const Landing = () => {
     return (
         <div className = "main">
 
-            <div class="crossfade">
+            <div className="crossfade">
 
 
                 <div className= "container">
                     <p id = "main-tag" style ={{ letterSpacing: '8px' }} className="text-center">THE NEUROFOG LABORATORY</p>
                 </div>
 
-                <div class ="scroll">
+                <div className ="scroll">
                     <p id = "tag" style ={{ letterSpacing: '3px' }} className="text-center">Scroll Down!</p>
                         <a href="#section1">
-                            <i class="fas fa-chevron-down text-center"></i>
+                            <i className="fas fa-chevron-down text-center"></i>
                         </a>
                 </div>
                

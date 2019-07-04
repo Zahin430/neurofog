@@ -1,5 +1,5 @@
 import React from 'react';
-import juliarose21 from './img/juliarose21.jpg';
+// import juliarose21 from './img/juliarose21.jpg';
 import jon from './img/jon.jpg';
 import ian from './img/iain2.jpg';
 import rachelle from './img/rachelle.PNG';
