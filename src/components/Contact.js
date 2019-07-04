@@ -196,46 +196,6 @@ export default class Contact extends Component {
                     </div>
                 </div>
             </div>
-
-
-
-
-    //   <form className="feedback-form" style = {{paddingBottom: '500px'}} onSubmit={this.handleSubmit}>
-    //     <h1>Your Feedback</h1>
-    //     <input
-    //       className="text-input"
-    //       id="feedback-entry"
-    //       name="feedback-entry"
-    //       onChange={this.handleName}
-    //       placeholder="Name"
-    //       required
-    //       value={this.state.name}
-    //     />
-    //     <input
-    //       className="text-input"
-    //       id="feedback-entry"
-    //       name="feedback-entry"
-    //       onChange={this.handleEmail}
-    //       placeholder="Email"
-    //       required
-    //       value={this.state.email}
-    //     />
-    //     <textarea
-    //       className="text-input"
-    //       id="feedback-entry"
-    //       name="feedback-entry"
-    //       onChange={this.handleChange}
-    //       placeholder="Enter your feedback here"
-    //       required
-    //       value={this.state.feedback}
-    //     />
-    //     <div className="btn-group">
-    //       <button className="btn btn--cancel" onClick={this.handleCancel}>
-    //         Cancel
-    //       </button>
-    //       <input type="submit" value="Submit" className="btn btn--submit" />
-    //     </div>
-    //   </form>
     );
   }
 }
