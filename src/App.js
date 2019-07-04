@@ -19,32 +19,33 @@ class App extends Component{
     return (
       <Router>
       <Fragment>
-      <Navbar />
-      <Route exact path= '/' component={ Landing } />
-      <section>
-      <Switch>
-  
-        <Route exact path= '/team' component={ Team } />
-        <Route exact path= '/research' component={ Research } />
-        <Route exact path= '/involved' component={ Involved } />
-        <Route exact path= '/contact'
-          render={() => <Contact env = {this.props.env} />} />
-  
+        <Navbar />
+
+        <Route exact path= '/' component={ Landing } />
         
-      </Switch>
-  
-      <Footer />
-  
+        <section>
+
+          <Switch>
+      
+            <Route exact path= '/team' component={ Team } />
+            <Route exact path= '/research' component={ Research } />
+            <Route exact path= '/involved' component={ Involved } />
+            <Route exact path= '/contact'
+              render={ () => <Contact env = {this.props.env} /> } />
+            
+          </Switch> 
+
+          <Footer />
+    
       </section>
-  
-      </Fragment>
+    
+        </Fragment>
   
       </Router>    
     );
   }
 
 }
-
 
 App.propTypes = {
   env: PropTypes.object.isRequired
