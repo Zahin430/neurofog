@@ -11,7 +11,7 @@ const Team = () => {
         <div> 
         <section className="team-section my-5">
                       <h2 className="h1-responsive text-center my-5" style = {{ letterSpacing: '2px' }}>NEURO FOG LABORATORY</h2>
-                      <p className="grey-text text-center w-responsive mx-auto mb-5">Current members of the labratory.</p>
+                      <p className="grey-text text-center w-responsive mx-auto mb-5"  style = {{ letterSpacing: '2px', fontWeight: 'bold' }}>Current members of the labratory.</p>
                     
                       <div className="row text-center text-md-left">
 
