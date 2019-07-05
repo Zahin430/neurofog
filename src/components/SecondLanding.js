@@ -7,7 +7,7 @@ import participation from './img/participation_2.jpeg'
 const SecondLanding = () => {
     return (
     <div className="card-deck" style= {{padding: '5%' , width: '100%', height: '100%'}}>
-    <div className="card" style= {{ width: '50%', height: '50%'}}>
+    <div className="card shadow bg-white rounded" style= {{ width: '50%', height: '50%'}}>
     <img className="card-img-top" src="http://neurofog.ca/img/teamsmall.jpg" alt="Card1"/>
     <div className="card-body">
       <h5 className="card-title">
@@ -16,7 +16,7 @@ const SecondLanding = () => {
       <p className="card-text">View our current and past members of the Neuro Fog Laboratory.</p>
     </div>
   </div>
-  <div className="card">
+  <div className="card shadow bg-white rounded">
     <img className="card-img-top" style= {{ height: '67%' }} src={researchMain} alt="Card2"/>
     <div className="card-body">
       <h5 className="card-title">
@@ -25,7 +25,7 @@ const SecondLanding = () => {
       <p className="card-text">Take a look at what research goes on in our laboratory.</p>
     </div>
   </div>
-  <div className="card">
+  <div className="card shadow bg-white rounded">
     <img className="card-img-top" src={participation} style={{height: "67%"}} alt="Card3"/>
     <div className="card-body">
       <h5>
