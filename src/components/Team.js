@@ -59,7 +59,7 @@ const Team = () => {
 
 
                     <div className="col-xl-6 col-lg-12 d-md-flex justify-content-between">
-                      <div className="avatar mb-md-0 mb-4 mx-4"  style = {{ width: "100%", height: "100%" }}>
+                      <div className="avatar mb-md-0 mb-4 mx-4"  style = {{ width: "100%", height: "90%" }}>
                         <img src={juliarose} className="rounded z-depth-1 img-fluid"
                           alt="Sample avatar"  style = {{ width: "100%", height: "100%" }}/>
                       </div>
