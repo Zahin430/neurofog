@@ -19,7 +19,7 @@ export default class Research extends Component {
                     </a>
             </div>
         </div>  
-      <div className="container">
+      <div className="container" id ="section1" style= {{paddingTop: "200px"}}>
             
             <h2 className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px'}} >RESEARCH</h2>
             
