@@ -33,13 +33,15 @@ class Involved extends Component  {
                     <h2 className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px'}}>Psychology Research Experience Pool (PREP)</h2>
 
                     <p>Some of our studies may be availble via the MUN Psychology Research Experience Pool (PREP). PREP gives extra course credit for completing Psychology experiments on MUN campus. To see if your course qualifies for PREP, please visit below.</p>
+                    <a className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px', textAlign: 'center', marginLeft: '45%'}} href = "https://mun.sona-systems.com/Default.aspx?ReturnUrl=%2f" target ="_blank">MUN SONA</a>
+
                </div>
 
 
                <div className= "container" style= {{paddingTop: '50px'}}>
                     <h2 className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px'}}>Prospective Students</h2>
 
-                    <p>We are always looking for students to volunteer and help out in the laboratory. You are welcome to contact Dr. Fawcett about potential opportunities to gain research experience in the Neurofog Lab. Volunteers should be prepared to commit to volunteering a few hours per week for at least one academic year. If you are you interested in becoming a part of the team, please  <a href = "/contact">contact us.</a></p>
+                    <p style = {{ paddingBottom: '25px'}}>We are always looking for students to volunteer and help out in the laboratory. You are welcome to contact Dr. Fawcett about potential opportunities to gain research experience in the Neurofog Lab. Volunteers should be prepared to commit to volunteering a few hours per week for at least one academic year. If you are you interested in becoming a part of the team, please  <a href = "/contact">contact us.</a></p>
                </div>
 
                </div>
