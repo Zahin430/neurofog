@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
     <nav id ="navbar" className="navbar navbar-expand-lg navbar-light bg-custom shadow-sm rounded sticky-top">
 
-    <img src={icon} alt="icon" id = "navbar-icon"/>
+    <Link style={{ textDecoration: 'none' }} to ="/" ><img src={icon} alt="icon" id = "navbar-icon"/></Link>
    
     <Link className="navbar-brand" style={{ textDecoration: 'none', letterSpacing: '5px' }} to ="/" >NEUROFOG</Link>
     
