@@ -1,20 +1,17 @@
 import React from 'react';
 import SecondLanding from './SecondLanding';
 import ScrollableAnchor from 'react-scrollable-anchor';
-// import BackgroundSlideshow from 'react-background-slideshow'
-
 import logo from './img/logo.png'
-// import image2 from './img/harbour.jpg'
 
 const Landing = () => {
     return (
         <div className = "main">
 
-            <div className="crossfade">
+            <div className="crossfade ">
 
 
-                <div className= "container">
-                    <p id = "main-tag" style ={{ letterSpacing: '8px' }} className="text-center">THE NEUROFOG LABORATORY</p>
+                <div className= "container d-flex justify-content-center" style={{width: 'auto'}}>
+                    <p id = "main-tag" style ={{ letterSpacing: '8px', width: 'auto', height: 'auto', maxWidth: '400px' }} className="text-center">THE NEUROFOG LABORATORY</p>
                 </div>
 
                 <div className ="scroll">
@@ -36,13 +33,7 @@ const Landing = () => {
                     <p id ="main-header" className="text text-center container">The Neurofog laboratory, directed by Dr. Jonathan Fawcett, is a human cognition laboratory in the department of Psychology at Memorial University of Newfoundland. The lab specializes in human memory and extends beyond behvaioural measurements, applying research with pupillometry and EEG. </p>
                 </div>
             </ScrollableAnchor>
-
-
-
-
-
-
-                
+  
                 <div>
                     <SecondLanding />
                 </div>
