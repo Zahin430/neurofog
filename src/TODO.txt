@@ -8,3 +8,7 @@
 7. COLOR SCHEME
 8. ANYTHING IN SPECIFIC
 9. cPANEL
+
+
+# NEWTODO:
+1. SecondLanding not responside cards
