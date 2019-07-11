@@ -11,7 +11,7 @@ const Landing = () => {
 
 
                 <div className= "container d-flex justify-content-center" style={{width: 'auto'}}>
-                    <p id = "main-tag" style ={{ letterSpacing: '8px', width: 'auto', height: 'auto', maxWidth: '400px' }} className="text-center">THE NEUROFOG LABORATORY</p>
+                    <p id = "main-tag" style ={{ letterSpacing: '8px' }} className="text-center">THE NEUROFOG LABORATORY</p>
                 </div>
 
                 <div className ="scroll">

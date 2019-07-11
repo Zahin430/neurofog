@@ -7,7 +7,7 @@ import participation from './img/participation_2.jpeg'
 const SecondLanding = () => {
     return (
     <div className="card-deck" style= {{padding: '5%' , width: '100%', height: '100%'}}>
-    <div className="card shadow bg-white rounded" style= {{ width: '50%', height: '50%'}}>
+    <div className="card shadow bg-white rounded" >
     <img className="card-img-top" src="http://neurofog.ca/img/teamsmall.jpg" alt="Card1"/>
     <div className="card-body">
       <h5 className="card-title">
@@ -17,7 +17,7 @@ const SecondLanding = () => {
     </div>
   </div>
   <div className="card shadow bg-white rounded">
-    <img className="card-img-top" style= {{ height: 'auto', width: '100%' }} src={researchMain} alt="Card2"/>
+    <img className="card-img-top" style= {{ height: '67%', width: '100%' }} src={researchMain} alt="Card2"/>
     <div className="card-body">
       <h5 className="card-title">
       <a className="btn btn-primary" style={{ textDecoration: 'none', color: 'white' }} href ="/research">Our Research</a>
@@ -26,7 +26,7 @@ const SecondLanding = () => {
     </div>
   </div>
   <div className="card shadow bg-white rounded">
-    <img className="card-img-top" src={participation}  style= {{ width: '100%', height: 'auto' }} alt="Card3"/>
+    <img className="card-img-top" src={participation}  style= {{ height: '67%'}} alt="Card3"/>
     <div className="card-body">
       <h5>
         <a className="btn btn-primary" style={{ textDecoration: 'none', color: 'white' }} href ="/involved">Become a Participant</a>
