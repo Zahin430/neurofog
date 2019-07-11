@@ -105,6 +105,18 @@ code {
   letter-spacing: 8px;
   border: 2px solid white;
   box-shadow: #ffffff;
+  flex-shrink: 1;
+}
+
+@media only screen and (max-width: 400px){
+  #main-tag {
+    font-size: 2em;
+    border: 1px solid white;
+  }
+  #cover{
+    width: 20%
+  }
+
 }
 
 #tag {
