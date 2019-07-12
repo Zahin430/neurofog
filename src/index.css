@@ -95,6 +95,10 @@ code {
   margin-top: 50px;
 }
 
+#landing-logo {
+  width: 400px; 
+  height: 350px;
+}
 #main-tag{
   margin-top: 100px;
   font-family: brandon-grotesque, sans-serif;
@@ -109,7 +113,7 @@ code {
 
 @media only screen and (max-width: 550px){
   #main-tag {
-    font-size: 2.5em;
+    font-size: 2.4em;
     margin-top: 200px;
     border: 1px solid white;
   }
@@ -117,7 +121,11 @@ code {
     width: 20%;
     padding-left: 10%;
   }
-
+  #landing-logo {
+    width: 260px;
+    height: 175px;
+    padding-left: 40px;
+  }
 }
 
 #tag {
@@ -253,14 +261,20 @@ code {
 #landing {
   margin-top: 50px;
 }
+@media only screen and (max-width: 550px){
+  #research-text {
+    font-size: 1em;
+    margin-top: 200px;
 
+  }
+}
 #research-text{
   margin-top: 100px;
   font-family: brandon-grotesque, sans-serif;
   font-style: normal;
   font-weight: 200;
   color: white;
-  font-size: 6em;
+  font-size: 5em;
   letter-spacing: 8px;
   box-shadow: #ffffff;
 }

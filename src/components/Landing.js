@@ -28,7 +28,7 @@ const Landing = () => {
             
             <div id = "landing">
                 <div id = "cover" className="Hello">
-                    <img className="rounded mx-auto d-block" style = {{width: "400px", height: "350px"}} src={logo} alt="main"/>
+                    <img className="rounded mx-auto d-block" id = "landing-logo" src={logo} alt="main"/>
                 </div>
                     <p id ="main-header" className="text text-center container">The Neurofog laboratory, directed by Dr. Jonathan Fawcett, is a human cognition laboratory in the department of Psychology at Memorial University of Newfoundland. The lab specializes in human memory and extends beyond behvaioural measurements, applying research with pupillometry and EEG. </p>
                 </div>
