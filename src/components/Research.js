@@ -20,9 +20,9 @@ export default class Research extends Component {
     return (
       <div className = "research">
         <div className="research-head">
-            <div className= "container">
-                <p id = "research-text" style ={{ letterSpacing: '8px',paddingTop: "50px" }} className="text-center">RESEARCH</p>
-            </div>
+                <div className= "container d-flex justify-content-center" style={{width: 'auto'}}>
+                <p id = "main-tag" style ={{ letterSpacing: '8px', padding: '20px', border: 'none' }} className="text-center">RESEARCH</p>
+                </div>
 
             <div className ="scroll" style ={{paddingTop: '120px'}}>
                 <p id = "tag" style ={{ letterSpacing: '3px' }} className="text-center">Scroll Down!</p>

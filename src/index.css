@@ -126,6 +126,21 @@ code {
     height: 175px;
     padding-left: 40px;
   }
+
+  iframe {
+    width: 300px;
+  }
+
+  #contact-form {
+    margin-bottom: 50px;
+  }
+
+  #contact-card {
+    padding-top: 5px;
+    margin-bottom: 0%;
+  }
+
+
 }
 
 #tag {
@@ -261,14 +276,8 @@ code {
 #landing {
   margin-top: 50px;
 }
-@media only screen and (max-width: 550px){
-  #research-text {
-    font-size: 1em;
-    margin-top: 200px;
 
-  }
-}
-#research-text{
+/* #research-text{
   margin-top: 100px;
   font-family: brandon-grotesque, sans-serif;
   font-style: normal;
@@ -277,7 +286,7 @@ code {
   font-size: 5em;
   letter-spacing: 8px;
   box-shadow: #ffffff;
-}
+} */
 
 #tag {
  visibility: hidden; 

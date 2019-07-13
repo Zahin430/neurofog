@@ -274,13 +274,7 @@ const Team = () => {
                           <p className="grey-text">Kathleen is a new volunteer in the Neuro Fog laboratory.</p>
                       </div>
                       </div>
-                      </div>
-
-
-
-
- 
-        
+                      </div>        
         </section>
 
 

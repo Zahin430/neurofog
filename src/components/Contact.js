@@ -132,9 +132,9 @@ export default class Contact extends Component {
                  
                     
                     <div className="col md-6">
-                    <div class="card" style={{padding: "2%", width: '100%'}}>
+                    <div id = "contact-card" class="card" style={{padding: "2%", width: '100%'}}>
 
-                        <form onSubmit={this.handleSubmit}>
+                        <form onSubmit={this.handleSubmit} id = "contact-form">
                         <div class="form-row">
                             <div className="form-group col-md-12" align="center">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.8192260600094!2d-52.73489928447622!3d47.57130557918235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0ca38fd1eaaaab%3A0x9c215e1fbd97e8b4!2sNeurofog+laboratory!5e0!3m2!1sen!2sca!4v1562885657603!5m2!1sen!2sca" width="400" height="250" frameborder="0" style={{border:"0"}} allowfullscreen title = "map"></iframe>

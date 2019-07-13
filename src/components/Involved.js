@@ -8,8 +8,8 @@ class Involved extends Component  {
             <div class="involved-landing">
 
 
-                <div className= "container">
-                    <p id = "involved-text" style ={{ letterSpacing: '8px' }} className="text-center">GET INVOLVED</p>
+                <div className= "container d-flex justify-content-center" style={{width: 'auto'}}>
+                    <p id = "main-tag" style ={{ letterSpacing: '8px', padding: '20px', border: 'none' }} className="text-center">GET INVOLVED</p>
                 </div>
 
                 <div class ="scroll">
@@ -33,7 +33,10 @@ class Involved extends Component  {
                     <h2 className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px'}}>Psychology Research Experience Pool (PREP)</h2>
 
                     <p>Some of our studies may be availble via the MUN Psychology Research Experience Pool (PREP). PREP gives extra course credit for completing Psychology experiments on MUN campus. To see if your course qualifies for PREP, please visit below.</p>
-                    <a className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px', textAlign: 'center', marginLeft: '45%'}} href = "https://mun.sona-systems.com/Default.aspx?ReturnUrl=%2f" target ="_blank">MUN SONA</a>
+                    <p className="text-center">
+                    <a style={{letterSpacing: '3px', paddingBottom: '35px', textAlign: 'center'}} href = "https://mun.sona-systems.com/Default.aspx?ReturnUrl=%2f" target ="_blank">MUN SONA</a>
+                    </p>
+                  
 
                </div>
 

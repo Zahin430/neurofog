@@ -1,6 +1,5 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import ScrollableAnchor from 'react-scrollable-anchor';
 
 const Footer = () => {
     return (
