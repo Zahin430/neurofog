@@ -108,7 +108,7 @@ export default class Contact extends Component {
     return (
         <div className = "container">
                 <div className="row">
-                    <div className="col md-6" style={{paddingTop: '5%', fontSize: "120%"}}>
+                    <div id = "social-row" className="col md-6" style={{paddingTop: '5%', fontSize: "120%"}}>
                     Want to work with us? Volunteer? Participate in our studies? Ask us more about what we do? 
                     <br/>
                     Use the contact form to the right or send an e-mail. We would love to hear from you.
