@@ -10,31 +10,31 @@ export default class TeamCard extends Component {
                     "name": "Jonathan Fawcett",
                     "role": "Lab Director | Assistant Professor",
                     "description": "Dr. Fawcett is the owner and oporator of the Neuro Fog laboratory. He is currently an Assisant Professor at MUN and has been for the last 3 years.",
-                    "image": './img/jon.jpg'
+                    "image": 'juliarose21'
                 },
                 {
                     "name": "Jonathan Fawcett",
                     "role": "Lab Director | Assistant Professor",
                     "description": "Dr. Fawcett is the owner and oporator of the Neuro Fog laboratory. He is currently an Assisant Professor at MUN and has been for the last 3 years.",
-                    "image": './img/jon.jpg'
+                    "image": 'jon'
                 },
                 {
                     "name": "Jonathan Fawcett",
                     "role": "Lab Director | Assistant Professor",
                     "description": "Dr. Fawcett is the owner and oporator of the Neuro Fog laboratory. He is currently an Assisant Professor at MUN and has been for the last 3 years.",
-                    "image": './img/jon.jpg'
+                    "image":'jon'
                 },
                 {
                     "name": "Jonathan Fawcett",
                     "role": "Lab Director | Assistant Professor",
                     "description": "Dr. Fawcett is the owner and oporator of the Neuro Fog laboratory. He is currently an Assisant Professor at MUN and has been for the last 3 years.",
-                    "image": './img/jon.jpg'
+                    "image": 'jon'
                 },
                 {
                     "name": "Jonathan Fawcett",
                     "role": "Lab Director | Assistant Professor",
                     "description": "Dr. Fawcett is the owner and oporator of the Neuro Fog laboratory. He is currently an Assisant Professor at MUN and has been for the last 3 years.",
-                    "image": './img/jon.jpg'
+                    "image": 'jon'
                 },
                 
             ]
@@ -52,7 +52,7 @@ export default class TeamCard extends Component {
                        
                             <div className="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
                                 <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: "80%", height: "100%" }}>
-                                    <img src={jon} className="rounded z-depth-1" style = {{ width: "100%", height: "100%" }} alt="avatar"/>
+                                    <img  src={require(`./img/${item.image}.jpg`)} className="rounded z-depth-1" style = {{ width: "100%", height: "100%" }} alt="avatar"/>
                                 </div>
                     
                                 <div className="mx-4">
