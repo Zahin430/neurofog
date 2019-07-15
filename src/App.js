@@ -5,12 +5,14 @@ import PropTypes from 'prop-types';
 
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
-import Team from './components/Team';
+import Team from './components/TeamCard';
 import Research from './components/Research';
 import Involved from './components/Involved';
 import Contact from './components/Contact';
-
 import Footer from './components/Footer';
+
+import teamData from './components/teamData';
+
 
 class App extends Component{
   
@@ -27,7 +29,8 @@ class App extends Component{
 
           <Switch>
       
-            <Route exact path= '/team' component={ Team } />
+            <Route exact path= '/team' 
+            render = { () => <Team teamData = {teamData} />} />
             <Route exact path= '/research' component={ Research } />
             <Route exact path= '/involved' component={ Involved } />
             <Route exact path= '/contact'
@@ -48,7 +51,8 @@ class App extends Component{
 }
 
 App.propTypes = {
-  env: PropTypes.object.isRequired
+  env: PropTypes.object.isRequired,
+  teamData : PropTypes.object.isRequired
 };
 
 
