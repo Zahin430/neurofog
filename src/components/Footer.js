@@ -1,13 +1,12 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-
+import {Link} from 'react-router-dom';
 const Footer = () => {
     return (
         <div>
 
             <div className="footer">
                 © All Rights Reserved 2019
-                <AnchorLink href='#navbar' style = {{paddingLeft: '0.5%'}}>Neurofog</AnchorLink>
+                <Link to = "/" style = {{paddingLeft: '0.5%'}}>Neurofog</Link>
             </div>
 
         </div>
