@@ -140,7 +140,14 @@ code {
     margin-bottom: 0%;
   }
 
+  #social-row > span{
 
+    font-size: 80%;
+  }
+
+  #social-row {
+    padding-bottom: 18px;
+  }
 }
 
 #tag {
