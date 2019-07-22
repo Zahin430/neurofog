@@ -17,3 +17,6 @@
 4. Contact page email need to change from emailjs
 5. Involved page - ??
 6. Research page need to change layout a bit
+
+#TODO:
+1. CHANGE EMAILJS EMAIL TO NEUROFOG
