@@ -12,7 +12,7 @@ class Involved extends Component  {
                     <p id = "main-tag" style ={{ letterSpacing: '8px', padding: '20px', border: 'none' }} className="text-center">GET INVOLVED</p>
                 </div>
 
-                <div class ="scroll">
+                <div class ="scroll" id = "scroll">
                     <p id = "tag" style ={{ letterSpacing: '3px' }} className="text-center">Scroll Down!</p>
                         <a href="#section1">
                             <i class="fas fa-chevron-down text-center"></i>
@@ -22,7 +22,7 @@ class Involved extends Component  {
             </div> 
 
         
-               <div className= "container" style= {{paddingTop: '250px'}}>
+               <div className= "container" style= {{ paddingTop: '250px' }} id = "section1" data-spy="scroll" data-target="#scroll" data-offset="0" class="scrollspy-example container">
                     <h2 className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px'}}>Participate In Our Research</h2>
 
                     <p>We are always looking for participants for our research! Participating in studies is a great way to get yourself involved with the university and to explore your interests in psychological research. Below you will find a list of studies that you can participate in. Visit the <a href = "/contact">Contact Us</a>  section if you would like to get in contact.</p>
@@ -34,7 +34,7 @@ class Involved extends Component  {
 
                     <p>Some of our studies may be availble via the MUN Psychology Research Experience Pool (PREP). PREP gives extra course credit for completing Psychology experiments on MUN campus. To see if your course qualifies for PREP, please visit below.</p>
                     <p className="text-center">
-                    <a style={{letterSpacing: '3px', paddingBottom: '35px', textAlign: 'center'}} href = "https://mun.sona-systems.com/Default.aspx?ReturnUrl=%2f" target ="_blank">MUN SONA</a>
+                    <a style={{letterSpacing: '3px', paddingBottom: '35px', textAlign: 'center'}} href = "https://mun.sona-systems.com/Default.aspx?ReturnUrl=%2f" target ="_blank" rel="noopener noreferrer">MUN SONA</a>
                     </p>
                   
 

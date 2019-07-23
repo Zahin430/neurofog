@@ -42,7 +42,7 @@ export default class Research extends Component {
 
             <hr/>
 
-            <p className="text-center" style = {{ fontSize: '20px' }}>The laboratory is also presently equipped with state-of-the-art facilities for eye tracking and electroencephalography (EEG) which are both used to extend knowledge of this research</p>
+            <p className="text-center" style = {{ fontSize: '20px', padding: '10px'}}>The laboratory is also presently equipped with state-of-the-art facilities for eye tracking and electroencephalography (EEG) which are both used to extend knowledge of this research</p>
 
             
                 <div className="card" style={{ marginLeft: '15%',width: '70%', height: '50%'}} >
