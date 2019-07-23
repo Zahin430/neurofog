@@ -2,34 +2,39 @@ import React, { Component } from 'react';
 
 export default class TeamCard extends Component {
     render() {
-        // let teamData = this.props.teamData;
         let teamData = {
             "members" : [
                 {
                     "name": "Jonathan Fawcett",
                     "role": "Lab Director | Assistant Professor",
                     "description": "Dr. Fawcett is the owner and oporator of the Neuro Fog laboratory. He is currently an Assisant Professor at MUN and has been for the last 3 years.",
-                    "image": 'jon',                  
+                    "image": 'jon',
+                    width : '88%'                  
                 },
                 {
                     "name": "Rachelle Wakeham-Lewis",
                     "role": "Lab Manager | Honours Student",
                     "description": "Dr. Fawcett is the owner and oporator of the Neuro Fog laboratory. He is currently an Assisant Professor at MUN and has been for the last 3 years.",
-                    "image": 'rachelle'
+                    "image": 'rachelle',
+                    width : '86%'                  
+
                 },
                 {
                     "name": "Julia Rose",
                     "role": "NSERC Student",
                     "description": "Julia is currently completing her BSc (Hons) in Psychology. She is working with Dr. Fawcett and Dr. Rash to determine the cognitive mechanisms involved in managing past and future painful events.",
                     "image":'juliarose21',
-                    width : '100%'
+                    width : '100%',
+                    paddingLeft: '50px'
 
                 },
                 {
                     "name": "Iain Gamba",
                     "role": "NSERC Student",
                     "description": "Iain is completing his BSc (Hons) in Behavioural Neuroscience with hops to persue Medicine. He is currently working on his Honours project with Dr. Fawcett.",
-                    "image": 'iainM'
+                    "image": 'iain2',
+                    width : '89%',
+                    height: '100%'
                 },
                 {
                     "name": "Janaya Toope ",
@@ -107,12 +112,12 @@ export default class TeamCard extends Component {
                     {
                         teamData.members && teamData.members.map((item) => {
                             return (
-                                    <div className="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
-                                        <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: item.width || '60%', height: item.height }}>
-                                            <img  src={require(`./img/${item.image}.jpg`)} className="rounded z-depth-1" style = {{ width: 'auto', maxWidth: '100%', height: 'auto', maxHeight: '100%' }} alt="avatar"/>
+                                    <div className="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between border border-info" >
+                                        <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: item.width || '100%', height: item.height }}>
+                                            <img  src={require(`./img/${item.image}.jpg`)} className="rounded z-depth-1" style = {{ width: item.width || '100%', maxWidth: '100%', height: '100%', maxHeight: '100%' }} alt="avatar"/>
                                         </div>
                             
-                                        <div className="mx-6">
+                                        <div className="mx-6" style = {{paddingLeft: item.paddingLeft || 'auto'}}>
                                             <h4 className="font-weight-bold mb-3">{item.name}</h4>
                                             <h6 className="font-weight-bold grey-text mb-3">{item.role}</h6>
                                             <p className="grey-text">{item.description}</p>
