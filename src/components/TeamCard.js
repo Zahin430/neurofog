@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import jon from './img/jon.jpg';
 
 export default class TeamCard extends Component {
     render() {
@@ -23,6 +22,7 @@ export default class TeamCard extends Component {
                     "role": "NSERC Student",
                     "description": "Julia is currently completing her BSc (Hons) in Psychology. She is working with Dr. Fawcett and Dr. Rash to determine the cognitive mechanisms involved in managing past and future painful events.",
                     "image":'juliarose21',
+                    width : '100%'
 
                 },
                 {
@@ -99,16 +99,16 @@ export default class TeamCard extends Component {
     return (
         <div>
 
-        <section className="team-section my-5 mb-100">
+        <section className="team-section">
                     <h2 className="h1-responsive text-center my-5" style = {{ letterSpacing: '2px' }}>NEURO FOG LABORATORY</h2>
-                    <p className="grey-text text-center w-responsive mx-auto mb-5">Current members of the labratory.</p> 
+                    <p className="grey-text text-center w-responsive mx-auto mb-5" style = {{ fontWeight: '500', letterSpacing: '2px' }}>CURRENT MEMBERS OF THE LABORATORY.</p> 
 
                     <div className= "row text-center text-md-left">
                     {
                         teamData.members && teamData.members.map((item) => {
                             return (
                                     <div className="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
-                                        <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: '60%' }}>
+                                        <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: item.width || '60%', height: item.height }}>
                                             <img  src={require(`./img/${item.image}.jpg`)} className="rounded z-depth-1" style = {{ width: 'auto', maxWidth: '100%', height: 'auto', maxHeight: '100%' }} alt="avatar"/>
                                         </div>
                             
