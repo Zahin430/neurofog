@@ -14,7 +14,7 @@ const Landing = () => {
                     <p id = "main-tag" style ={{ letterSpacing: '8px' }} className="text-center">THE NEUROFOG LABORATORY</p>
                 </div>
 
-                <div className ="scroll">
+                <div className ="scroll" id = "scroll">
                     <p id = "tag" style ={{ letterSpacing: '3px' }} className="text-center">Scroll Down!</p>
                         <a href="#section1">
                             <i className="fas fa-chevron-down text-center"></i>
