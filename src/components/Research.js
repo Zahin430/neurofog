@@ -69,7 +69,7 @@ export default class Research extends Component {
           
 
       <div>
-        <h3 className = "mx-auto" style = {{textAlign: 'center' }}>List of publications</h3>
+        <h3 id = "list-research-header"className = "mx-auto" style = {{textAlign: 'center' }}>List of publications</h3>
         
         <div className = "mx-auto row" id = "list-publication">
 
