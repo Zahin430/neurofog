@@ -137,7 +137,6 @@ export default class TeamCard extends Component {
                     width: "65%",
                     width2: "100%",
                     width3: "100%",
-                    height: '100%'  
                 },
                 {
                     "name": "Liam Foley",
@@ -146,7 +145,7 @@ export default class TeamCard extends Component {
                     "image": 'liam',
                     width: "65%",
                     width2: "100%",
-                    width3: "100%"
+                    width3: "100%",
                 },
                 {
                     "name": "Rachelle Lewis ",
