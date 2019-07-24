@@ -201,13 +201,13 @@ export default class TeamCard extends Component {
                     <h2 className="h1-responsive text-center my-5" style = {{ letterSpacing: '2px' }}>NEURO FOG LABORATORY</h2>
                     <p className="grey-text text-center w-responsive mx-auto mb-5" style = {{ fontWeight: '500', letterSpacing: '2px' }}>CURRENT MEMBERS OF THE LABORATORY.</p> 
 
-                    <div className= "row text-center text-md-left" style = {{width: '100%'}}>
+                    <div className= "row text-center text-md-left" style = {{width: '100%', paddingBottom: '5%'}}>
                     {
                         teamData.members && teamData.members.map((item) => {
                             return (
-                                    <div className="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between" >
+                                    <div id = "team-card" className="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between" >
                                         <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: item.width || '100%', height: item.height }}>
-                                            <img  src={require(`./img/${item.image}.jpg`)} className="rounded z-depth-1" style = {{ width: item.width2 || '100%', maxWidth: '100%', height: '100%', maxHeight: '100%' }} alt="avatar"/>
+                                            <img id = "image" src={require(`./img/${item.image}.jpg`)} className="rounded z-depth-1 shadow" style = {{ width: item.width2 || '100%', maxWidth: '100%', height: '100%', maxHeight: '100%' }} alt="avatar"/>
                                         </div>
                             
                                         <div className="mx-6" style = {{paddingLeft: item.paddingLeft || '0', width: item.width3 }}>
@@ -224,7 +224,7 @@ export default class TeamCard extends Component {
                 </section>
 
 
-        <div className = "container">
+        <div className = "container" style = {{paddingBottom: '10%'}}>
             <h3 className = "mx-auto" style = {{textAlign: 'center', color: 'brown', letterSpacing: '3px' }}>LAB ALUMNI</h3>
             
                 <hr/>
