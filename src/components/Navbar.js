@@ -26,7 +26,7 @@ const Navbar = () => {
     </button>
     
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul id = "nav-content" className="navbar-nav ml-auto mt-lg-0">
+      <ul id = "nav-content " className="navbar-nav ml-auto mt-lg-0" data-toggle="collapse" data-target=".navbar-collapse.show">
         <li className="nav-item">
             <Link className="nav-link" style={{ textDecoration: 'none' }} to ="/research">OUR RESEARCH<span className="sr-only">(current)</span></Link>      
         </li>
