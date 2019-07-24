@@ -124,11 +124,15 @@ code {
   #landing-logo {
     width: 260px;
     height: 175px;
-    padding-left: 40px;
+    padding-left: 55px;
   }
 
-  #scroll {
+  #list-publication{
+    padding-bottom: 30px;
+  }
 
+  #list-research-header {
+    padding-top: 1em
   }
   iframe {
     width: 300px;
