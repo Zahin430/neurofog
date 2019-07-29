@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 
 export default class TeamCard extends Component {
+    
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
+
         let teamData = {
             "members" : [
                 {
@@ -191,7 +196,9 @@ export default class TeamCard extends Component {
                     height: '100%'
                 }               
             ]
-        }
+        };
+
+        
 
     return (
         <div>

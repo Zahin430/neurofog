@@ -16,12 +16,15 @@ import document10 from './Website PDFs/fawcett2013 - 10.pdf'
 
 
 export default class Research extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className = "research">
         <div className="research-head">
                 <div className= "container d-flex justify-content-center" style={{width: 'auto'}}>
-                <p id = "main-tag" style ={{ letterSpacing: '8px', padding: '20px', border: 'none' }} className="text-center">RESEARCH</p>
+                <p id = "main-tag" style ={{ letterSpacing: '10px', padding: '20px',paddingTop: '15px', border: 'none',  fontWeight: '300'  }} className="text-center">RESEARCH</p>
                 </div>
 
             <div className ="scroll" style ={{paddingTop: '120px'}}>
@@ -31,9 +34,11 @@ export default class Research extends Component {
                     </a>
             </div>
         </div>  
+      
+      
       <div className="container" id ="section1" style= {{paddingTop: "200px"}}>
             
-            <h2 className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px'}} >RESEARCH</h2>
+            <h2 className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px' , fontWeight: '400'}} >RESEARCH</h2>
             
             <p style = {{ fontSize: '20px' }}>Dr. Fawcett and his team conduct a wide variety of research in Human Cognition. Primairly, the lab focusus on understanding the cognitive and neural basis of controlling unwanted thoughts or memories. For example, how is it that some people can be reminded of an unwanted experience and brush it off whereas others receive a similar reminder and find themselves caught ruminating over it for days? Dr. Fawcett's past work suggests that variation in the relative strength of certain mental control processes across individuals play a role. Some people are simply better at controlling unwanted memories – as measured in the laboratory – and those individuals tend to be less affected by intrusions of the manner described above. The team studies study this phenomenon in both general and clinical populations.</p>
 

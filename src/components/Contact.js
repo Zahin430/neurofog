@@ -29,6 +29,9 @@ export default class Contact extends Component {
         });
     }
 
+    componentDidMount() {
+      window.scrollTo(0, 0);
+    }
 
     // Helper functions to get the value
     handleName(event) {
@@ -100,7 +103,7 @@ export default class Contact extends Component {
             subject: ''
         });
       })
-      // Handle errors here however you like
+      // Handle errors here
       .catch(err => console.error('Failed to send feedback. Error: ', err));
   }
 
@@ -132,7 +135,7 @@ export default class Contact extends Component {
                  
                     
                     <div className="col md-6">
-                    <div id = "contact-card" class="card" style={{padding: "2%", width: '100%'}}>
+                    <div id = "contact-card" class="card" style={{padding: "2%", width: '100%', height: '99.2%'}}>
 
                         <form onSubmit={this.handleSubmit} id = "contact-form">
                         <div class="form-row">
