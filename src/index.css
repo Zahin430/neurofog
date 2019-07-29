@@ -17,6 +17,9 @@ code {
   padding: 2%;
 }
 
+Link {
+  outline: none;
+}
 
 
 #main-header {
@@ -179,7 +182,7 @@ code {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./components/img/brain_research.jpg');
+    background-image: url('./components/img/research.jpg');
     opacity: 1;
   }
 }
@@ -243,7 +246,7 @@ code {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('./components/img/involvement.jpg');
+  background-image: url('./components/img/library.jpg');
   opacity: 1;
 }
 
@@ -310,7 +313,7 @@ code {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('./components/img/brain_research.jpg');
+  background-image: url('./components/img/research.jpg');
   opacity: 1;
 }
 
