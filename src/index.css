@@ -31,8 +31,15 @@ Link {
 
 /*----------------------- NAVBAR STYLES -------------------- */
 .navbar-brand, .nav-link {
-  color: black
+  color: black;
+  outline: none
 } 
+/* 
+.nav-link */
+
+.active {
+  color: black
+}
 
 #navbar {
   background-color: #ffffff; 
