@@ -7,6 +7,9 @@ import julia from './img/julia.jpg'
 import female from './img/Female.jpg'
 
 const Team = () => {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
     return (
         <div> 
         <section className="team-section my-5">
