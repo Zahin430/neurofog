@@ -1,22 +1,5 @@
-# TODO:
-
-1. CHANGING NAVBAR TO ADD LOGO STAY AT TOP
-2. GET INVOLVED PAGE
-4. ADDING BACKGROUND SLIDESHOW
-5. DO TEAM PAGE
-6. ADD SERVER API FOR CONTACT
-7. COLOR SCHEME
-8. ANYTHING IN SPECIFIC
-9. cPANEL
-
-
-# NEWTODO:
-1. SecondLanding not responside cards
-2. Footer smooth scroll not working
-3. Team page pictures needed
-4. Contact page email need to change from emailjs
-5. Involved page - ??
-6. Research page need to change layout a bit
-
-#TODO:
-1. CHANGE EMAILJS EMAIL TO NEUROFOG
+# UPDATED TODOS
+1. Change alignments
+2. neurofog@mun.ca
+3. Create another section for a experiments
+4. Google scholar johnathan fawcett to email the
