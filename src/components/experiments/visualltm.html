@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Visual LTM Experiment</title>
+	<link href="css/library.css" rel="stylesheet" type="text/css" />
+	<style>
+		body {
+			margin-bottom: 0
+		}
+	</style>
+</head>
+<body>
+<div class=container>
+<div class="experiment">
+<div id="phase1"><br />
+<br />
+<br />
+<br />
+&nbsp;
+<h1>Welcome to the Experiment!</h1>
+&nbsp;
+
+<h2>In this study, we are interested in how well you are able to remember pictures of common objects. This will involve multiple phases. During the first phase, you will be presented visually with a series of objects, one at a time. To the left of each object will be the category from which the object was drawn (e.g., if the object were an APPLE, the category might be FRUIT). During this phase, you will study multiple objects from each category. Below each object will be the name of that object (e.g., APPLE). See below for an example.</h2>
+<br />
+<img alt="sample" src="../img/sample.png" /><br />
+<br />
+&nbsp;
+<h4>Throughout this initial phase, your goal is to study each item&nbsp;to the best of your ability. You will be tested for some of them in the following phases. Pay close attention to both the name and visual features of each object in as much detail as you can. You will be expected to remember both. Once you have studied all of the objects, you will practice retrieving some of them. Further instructions will be provided at that time.</h4>
+&nbsp;
+
+<h5>Each trial in this initial phase will last approximately 5 seconds. You will then see a fixation point &quot;+&quot; before the next stimulus is presented. You will study 96 objects in total.</h5>
+&nbsp;
+
+<h6>Click the button below to begin the Experiment.</h6>
+<br />
+<br />
+<a href="#" id="next">Begin</a><br />
+&nbsp;</div>
+
+<div id="phase2"><br />
+<br />
+<br />
+<br />
+&nbsp;
+<h1>You have now completed Phase 1 and are about to begin Phase 2!</h1>
+&nbsp;
+
+<h2>Now that you have learnt each of the items, you will now practice retrieving and describing some of those items. Specifically, we will test you for each object in two different ways, one after the other, on each trial.</h2>
+&nbsp;
+
+<h3>First, we will present you with a category and the first letter of one object from that category (e.g., FRUIT-A). You will be required to fill in the appropriate object name into the provided space (i.e., FRUIT-APPLE). Once you have done so, press &quot;Enter/Return&quot; on your keyboard or click &quot;Next&quot; on the screen to proceed. You will have 15 seconds to submit your answer. If you are completely unsure of the answer, just press the&nbsp;&quot;Enter/Return&quot; key.&nbsp;See the pictured example below. You will receive feedback regarding your answer.</h3>
+<br />
+<img alt="task 1" src="../img/cuedword.png" /><br />
+&nbsp;
+<h4>Once you have made your response concerning the object name, you will next be asked to judge the original colour of the object. Here you will be presented with the object surrounded by a colour wheel. The object will be presented in a random colour, with an arrow pointing to that colour on the wheel. You must click on the arrow and drag it along the wheel until the colour matches your memory for the original colour of that object (from the first phase &ndash; when you originally learnt it) as closely as possible. Please try to be as precise as you can. Once you have dragged the arrow to the desired colour, press &quot;Enter/Return&quot; on your keyboard or click &quot;Next&quot; on the screen to proceed. If you take longer than 15 seconds, the task will proceed automatically&nbsp;before your answer becomes automatically recorded. See the pictured example below. You will receive feedback &ndash; including the correct colour &ndash; following your response.</h4>
+<br />
+<br />
+<img alt="task 2" src="../img/colourjudgement.png" /><br />
+&nbsp;
+<h5>Each object tested during this phase will be tested three times, so you can expect the objects to repeat. Click the button below to begin Phase 2.</h5>
+<br />
+<br />
+<a href="#" id="next2">Begin</a><br />
+&nbsp;</div>
+
+<div id="phase3">
+<h1>You are almost done!</h1>
+&nbsp;
+
+<h2>During this third &ndash; and final &ndash; phase, you will be tested for your memory of the objects one final time. This will use the same testing procedure as the preceding phase. That is to say you will first be presented with a category and first letter of one object from that category (e.g., FRUIT-A) and be asked to complete the name of the relevant object you had studied from the first phase (i.e., FRUIT-APPLE). You will then be presented with the object surrounded by a colour wheel and will need to adjust the colour until it closely matches the colour from the initial phase (when you first learnt the object). However, each object will only be tested once in this phase.</h2>
+&nbsp;
+
+<h3>It is *very* important that you try your best to remember the names and colours of each object in this phase, so please do your best.</h3>
+<br />
+<br />
+<a href="#" id="next3">Begin</a><br />
+&nbsp;</div>
+
+<div id="wheel"></div>
+
+<div class="fixer">+</div>
+</div>
+</div>
+
+<div class="download-wrapper" onclick="download()" style="display: none">
+<p>Temp Data Download</p>
+</div>
+
+<p><input id="phase_chk" name="phase_chk" type="hidden" value="1" /> <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> <script src="js/huewheel.min.js"></script> <script src="js/data.js"></script> <script src="js/utility.js"></script> <script src="js/test.js"></script> <script>
+			var ua = navigator.userAgent.toLowerCase();
+			if (ua.indexOf('safari') != -1) {
+				if (ua.indexOf('chrome') > -1) {
+					var link = document.createElement("link");
+					link.href = "css/style.css";
+					link.type = "text/css";
+					link.rel = "stylesheet";
+					link.media = "screen,print";
+					document.getElementsByTagName("head")[0].appendChild(link);
+
+					var js = document.createElement("script");
+					js.type = "text/javascript";
+					js.src = "js/script.js";
+					document.body.appendChild(js);
+				} else {
+					var link = document.createElement("link");
+					link.href = "css/style.safari.css";
+					link.type = "text/css";
+					link.rel = "stylesheet";
+					link.media = "screen,print";
+					document.getElementsByTagName("head")[0].appendChild(link);
+
+					var js = document.createElement("script");
+					js.type = "text/javascript";
+					js.src = "js/script.safari.js";
+					document.body.appendChild(js);
+				}
+			} else {
+				var link = document.createElement("link");
+				link.href = "css/style.css";
+				link.type = "text/css";
+				link.rel = "stylesheet";
+				link.media = "screen,print";
+				document.getElementsByTagName("head")[0].appendChild(link);
+
+				var js = document.createElement("script");
+				js.type = "text/javascript";
+				js.src = "js/script.js";
+				document.body.appendChild(js);
+			}
+			var wheel = document.getElementById('wheel');
+			var hwInit = function(hue) {
+				hw = new HueWheel('wheel', {
+					onChange: function(event) {
+						var hvalue = parseFloat(Math.round(event.h * 100) / 100).toFixed(2);
+
+						$('#phase2 img.hueimage').css('filter', "hue-rotate(" + hvalue + "deg)")
+							.attr('data-choose', hvalue);
+
+						$('#phase3 img.hueimage').css('filter', "hue-rotate(" + hvalue + "deg)")
+							.attr('data-choose', hvalue);
+					},
+					diameter: 600,
+					shadowBlur: 5,
+					colorSpace: 'hsl',
+					hue: hue,
+					changeSaturation: true,
+					changeLightness: false,
+					showColorSpot: false,
+					thicknessHue: 15,
+					hueKnobSize: 0.05,
+					hueKnobShadow: true,
+					tabable: true
+				});
+			}
+			hwInit(0);
+		</script></p>
+</body>
+</html>
