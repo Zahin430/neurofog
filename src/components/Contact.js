@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+// import experimet from '../experiments/visualltm.html'
 
 export default class Contact extends Component {
   state = {
@@ -18,8 +19,8 @@ export default class Contact extends Component {
   handleName = this.handleName.bind(this);
   handleSubject = this.handleSubject.bind(this);
 
-//   static sender = 'sender@example.com';
-
+  //  static sender = 'sender@example.com';
+ 
     handleCancel() {
         this.setState({       
         feedback: '',
@@ -127,7 +128,7 @@ export default class Contact extends Component {
                     <hr/>
                     <i class="fas fa-home" style = {{fontSize: "28px", padding: "2px", color: "green"}}></i> <span style ={{ letterSpacing: "1px", paddingLeft: ".4em"}}>230 Elizabeth Ave. St. John's, Newfoundland</span> <br/> <hr/>
                     <i class="fas fa-phone" style = {{fontSize: "28px", padding: "2px", color: "brown"}}></i> <span style ={{ letterSpacing: "1px", paddingLeft: ".4em"}}>+1 709 864 8020</span>  <br/> <hr/>
-                    <i class="fas fa-envelope" style = {{fontSize: "28px", padding: "2px", color: "red"}}></i> <span style ={{ letterSpacing: "1px", paddingLeft: ".4em"}}><a href="mailto:mun.memory.laboratory@gmail.com" target="_blank"  rel="noopener noreferrer">mun.memory.laboratory@gmail.com</a></span>
+                    <i class="fas fa-envelope" style = {{fontSize: "28px", padding: "2px", color: "red"}}></i> <span style ={{ letterSpacing: "1px", paddingLeft: ".4em"}}><a href="mailto:neurofog@mun.ca" target="_blank"  rel="noopener noreferrer">neurofog@mun.ca</a></span>
 
                     
                     </div>
