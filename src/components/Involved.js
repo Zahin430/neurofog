@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import ScrollableAnchor from 'react-scrollable-anchor'
 
+// import experiment from './experiments/visualltm.html'
+
 
 class Involved extends Component  {
 
@@ -35,6 +37,7 @@ class Involved extends Component  {
                         <div className= "container" style= {{paddingTop: '50px'}}>
                             <h2 className="text-center" style={{letterSpacing: '3px', paddingBottom: '35px'}}>Psychology Research Experience Pool (PREP)</h2>
                             <p>Some of our studies may be availble via the MUN Psychology Research Experience Pool (PREP). PREP gives extra course credit for completing Psychology experiments on MUN campus. To see if your course qualifies for PREP, please visit below.</p>
+                            {/* <a href = {experiment} >Experiment</a> */}
                             <p className="text-center">
                             <a style={{letterSpacing: '3px', paddingBottom: '35px', textAlign: 'center'}} href = "https://mun.sona-systems.com/Default.aspx?ReturnUrl=%2f" target ="_blank" rel="noopener noreferrer">MUN SONA</a>
                             </p>
