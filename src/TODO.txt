@@ -1,5 +1,7 @@
 # UPDATED TODOS
-1. Change alignments
-2. neurofog@mun.ca
+1. Change alignments for team page
+2. neurofog@mun.ca change email to this
 3. Create another section for a experiments
 4. Google scholar johnathan fawcett to email the
+5. Add another section for the alumnis
+6. landing page cards not responsive
