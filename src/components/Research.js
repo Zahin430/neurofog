@@ -19,7 +19,23 @@ export default class Research extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
+
+
   render() {
+    // let researchTopic = {
+    //   "research" : [
+    //     {
+    //       "researchImage": "pupillometry",
+    //       "researchName": "Pupillometry",
+    //       "researchDescription": ""
+    //     },
+    //     {
+    //       "researchImage": "electro",
+    //       "researchName": "",
+    //       "researchDescription": ""
+    //     }
+    //   ]
+    // }
     return (
       <div className = "research">
         <div className="research-head">
@@ -69,6 +85,26 @@ export default class Research extends Component {
                 </div>  
 
 
+              {/* <div className= "row text-center text-md-left" style = {{width: '100%', paddingBottom: '5%'}}>
+                    {
+                        researchTopic.research && researchTopic.research.map((item) => {
+                            return (
+                                    <div id = "team-card" className="col-xl-12 col-lg-12 pb-5 mb-5 ml-5 d-md-flex justify-content-between" >
+                                        <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: item.width || '50%', height: item.height }}>
+                                            <img id = "image" src={require(`./img/${item.researchImage}.jpg`)} className="rounded z-depth-1 shadow" style = {{ width: item.width2 || '100%', maxWidth: '100%', height: '100%', maxHeight: '100%' }} alt="avatar"/>
+                                        </div>
+                            
+                                        <div className="mx-6 justify-content-between" style = {{marginLeft: "50px", width: item.width3 }}>
+                                            <h4 className="font-weight-bold mb-3" style= {{fontSize: "3.5em"}}>{item.researchName}</h4>
+                                            <p className="grey-text" style= {{fontSize: "1.5em"}}>{item.researchDescription}</p>
+                                        </div>
+                                    </div>
+                                
+                            )
+                        })
+                    }
+                    </div> */}
+         
 
         </div>
           
