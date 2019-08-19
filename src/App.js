@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 import experiment from './components/Experiment'
 
 import teamData from './components/teamData';
-
+import Alumni from './components/Alumni';
 
 class App extends Component{
   
@@ -35,11 +35,9 @@ class App extends Component{
             <Route exact path= '/research' component={ Research } />
             <Route exact path= '/involved' component={ Involved } />
             <Route exact path= '/experiment' component={ experiment } />
-
+            <Route exact path = '/alumni' component = {Alumni} />
             <Route exact path= '/contact'
               render={ () => <Contact env = {this.props.env} /> } />
-            {/* <Route exact path = "/visualltm.html"
-            render {() => {window.location.href = "visualltm.html"}} /> */}
           </Switch> 
 
           <Footer />
