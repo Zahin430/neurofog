@@ -210,7 +210,7 @@ export default class TeamCard extends Component {
 
                     <div className= "row text-center text-md-left" style = {{width: '90%', paddingBottom: '5%'}}>
                     {
-                        teamData.members && teamData.members.map((item) => {
+                        teamData.members.map((item) => {
                             return (
                                     <div id = "team-card" className="col-xl-12 col-lg-12 pb-5 mb-5 ml-5 d-md-flex justify-content-between" >
                                         <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: item.width || '80%', height: item.height }}>

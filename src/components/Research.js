@@ -22,20 +22,7 @@ export default class Research extends Component {
 
 
   render() {
-    // let researchTopic = {
-    //   "research" : [
-    //     {
-    //       "researchImage": "pupillometry",
-    //       "researchName": "Pupillometry",
-    //       "researchDescription": ""
-    //     },
-    //     {
-    //       "researchImage": "electro",
-    //       "researchName": "",
-    //       "researchDescription": ""
-    //     }
-    //   ]
-    // }
+
     return (
       <div className = "research">
         <div className="research-head">
@@ -66,7 +53,10 @@ export default class Research extends Component {
             <p className="text-center" style = {{ fontSize: '20px', padding: '10px'}}>The laboratory is also presently equipped with state-of-the-art facilities for eye tracking and electroencephalography (EEG) which are both used to extend knowledge of this research</p>
 
             
-                <div className="card" style={{ marginLeft: '15%',width: '70%', height: '50%'}} >
+
+
+
+      <div className="card" style={{ marginLeft: '15%',width: '70%', height: '50%'}} >
                   <img className="card-img-top" style = {{ objectFit: 'contain' }} src={Pupillometry} alt="Research" />
                   <h4 className="card-header text-center">Pupillometry</h4>
                   <div className="card-body">
@@ -83,7 +73,6 @@ export default class Research extends Component {
                       <p className="card-text" style = {{ fontSize: '16px'}} >EEG is an electrophysiological monitoring method to record electrical activity of the brain. This instrument has been newly adopted into the Neuro Fog laboratory! It is a noninvasive measuremnt which uses eletrodes placed on one's scalp to measures voltage fluctuations resulting from ionic current within the neurons of the brain. Future projects will make use of this EEG machine.</p>
                   </div>
                 </div>  
-
 
               {/* <div className= "row text-center text-md-left" style = {{width: '100%', paddingBottom: '5%'}}>
                     {
