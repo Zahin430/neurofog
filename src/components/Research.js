@@ -42,56 +42,91 @@ export default class Research extends Component {
 
             <hr/>
 
-            <p className="text-center" style = {{ fontSize: '20px', padding: '10px'}}>The laboratory is also presently equipped with state-of-the-art facilities for eye tracking and electroencephalography (EEG) which are both used to extend knowledge of this research</p>
+            <p className="text-center" style = {{ fontSize: '20px', padding: '5px'}}>The laboratory is also presently equipped with state-of-the-art facilities for eye tracking and electroencephalography (EEG) which are both used to extend knowledge of this research</p>
 
             
+            </div>
 
 
 
-      <div className="card" style={{ marginLeft: '15%',width: '70%', height: '50%'}} >
-                  <img className="card-img-top" style = {{ objectFit: 'contain' }} src={Pupillometry} alt="Research" />
-                  <h4 className="card-header text-center">Pupillometry</h4>
-                  <div className="card-body">
-                      <p className="card-text" style = {{ fontSize: '16px' }}>Pupillometry is an unobtrusive psychophysiological techniques used to measure pupil size and reactivity. There is a great importance for pupil evaluation in cognitive research. Changes in pupil diameter in particular have been found to be a useful index of mental processing in humans. The more focused we are on something, the larger our pupils become. Many of our current studies involve measuremnts with a pupillometric instrument that can be found in our main laboratory. This device uses infrared light and special cameras to track and record the position of each eye, where it is looking on the computer screen and the size of the pupil. Together, these measurements allow us to monitor when and to what degree participants are attending to any given item on the screen.</p>
-                  </div>
+       {/*   <div className='container'>
+          </div>
+          <div className="row card-body">
+          <div className="col">
+          <img className="" style = {{ width: '100%', paddingLeft: '10%' }} src={Pupillometry} alt="Research" />
+          </div>
+          <div className="col">
+            <h4>Pupillometry</h4>
+            <p>Pupillometry is an unobtrusive psychophysiological techniques used to measure pupil size and reactivity. There is a great importance for pupil evaluation in cognitive research. Changes in pupil diameter in particular have been found to be a useful index of mental processing in humans. The more focused we are on something, the larger our pupils become. Many of our current studies involve measuremnts with a pupillometric instrument that can be found in our main laboratory. This device uses infrared light and special cameras to track and record the position of each eye, where it is looking on the computer screen and the size of the pupil. Together, these measurements allow us to monitor when and to what degree participants are attending to any given item on the screen.</p>
+          </div>
+    </div> */}
+
+    <div class="col-md-12 no-padding lib-item" data-category="view">
+                <div class="lib-panel align-middle">
+                    <div class="row box-shadow">
+                        <div class="col-md-6">
+                            <img class="lib-img-show" src= {Pupillometry} alt ='' />
+                        </div>
+                        <div class="col-md-6">
+                            <div class="lib-row lib-header">
+                                  <h3>Pupillometry</h3>
+                                <div class="lib-header-seperator"></div>
+                            </div>
+                            <div class="lib-row lib-desc">
+                            <p>Pupillometry is an unobtrusive psychophysiological techniques used to measure pupil size and reactivity. There is a great importance for pupil evaluation in cognitive research. Changes in pupil diameter in particular have been found to be a useful index of mental processing in humans. The more focused we are on something, the larger our pupils become. Many of our current studies involve measuremnts with a pupillometric instrument that can be found in our main laboratory. This device uses infrared light and special cameras to track and record the position of each eye, where it is looking on the computer screen and the size of the pupil. Together, these measurements allow us to monitor when and to what degree participants are attending to any given item on the screen.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                  <br />
+                <div class="lib-panel align-middle">
+                <div class="row box-shadow">
+                    <div class="col-md-6">
+                        <img class="lib-img-show" src= {electron} alt ='' />
+                    </div>
+                    <div class="col-md-6">
+                        <div class="lib-row lib-header">
+                              <h3>Electroencephalography</h3>
+                            <div class="lib-header-seperator"></div>
+                        </div>
+                        <div class="lib-row lib-desc">
+                            <p className="card-text" style = {{ fontSize: '16px'}} >EEG is an electrophysiological monitoring method to record electrical activity of the brain. This instrument has been newly adopted into the Neuro Fog laboratory! It is a noninvasive measuremnt which uses eletrodes placed on one's scalp to measures voltage fluctuations resulting from ionic current within the neurons of the brain. Future projects will make use of this EEG machine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
 
-                <div className="card mx-auto mw-100 " style={{ width: '70%', height: '20%'}}>
-                  <img className="card-img-top" style = {{ objectFit: 'contain' }} src={electron} alt="Research" />
-                  <h5 className="card-header text-center">Electroencephalography (EEG)</h5>
-                  <div className="card-body" style = {{ paddingBottom: "15px" }}>
-                      <p className="card-text" style = {{ fontSize: '16px'}} >EEG is an electrophysiological monitoring method to record electrical activity of the brain. This instrument has been newly adopted into the Neuro Fog laboratory! It is a noninvasive measuremnt which uses eletrodes placed on one's scalp to measures voltage fluctuations resulting from ionic current within the neurons of the brain. Future projects will make use of this EEG machine.</p>
-                  </div>
-                </div>  
+        
+        
+              
 
-              {/* <div className= "row text-center text-md-left" style = {{width: '100%', paddingBottom: '5%'}}>
-                    {
-                        researchTopic.research && researchTopic.research.map((item) => {
-                            return (
-                                    <div id = "team-card" className="col-xl-12 col-lg-12 pb-5 mb-5 ml-5 d-md-flex justify-content-between" >
-                                        <div className="avatar mb-md-0 mb-4 mx-4 team" style = {{ width: item.width || '50%', height: item.height }}>
-                                            <img id = "image" src={require(`./img/${item.researchImage}.jpg`)} className="rounded z-depth-1 shadow" style = {{ width: item.width2 || '100%', maxWidth: '100%', height: '100%', maxHeight: '100%' }} alt="avatar"/>
-                                        </div>
-                            
-                                        <div className="mx-6 justify-content-between" style = {{marginLeft: "50px", width: item.width3 }}>
-                                            <h4 className="font-weight-bold mb-3" style= {{fontSize: "3.5em"}}>{item.researchName}</h4>
-                                            <p className="grey-text" style= {{fontSize: "1.5em"}}>{item.researchDescription}</p>
-                                        </div>
-                                    </div>
-                                
-                            )
-                        })
-                    }
-                    </div> */}
-         
-
-        </div>
         
         
         <Publication />
+
+
     </div>
     );
   }
 }
+
+
+
+    //   {/* <div className="card" style={{ marginLeft: '15%',width: '70%', height: '50%'}} >
+    //               <img className="card-img-top" style = {{ objectFit: 'contain' }} src={Pupillometry} alt="Research" />
+    //               <h4 className="card-header text-center">Pupillometry</h4>
+    //               <div className="card-body">
+    //                   <p className="card-text" style = {{ fontSize: '16px' }}>Pupillometry is an unobtrusive psychophysiological techniques used to measure pupil size and reactivity. There is a great importance for pupil evaluation in cognitive research. Changes in pupil diameter in particular have been found to be a useful index of mental processing in humans. The more focused we are on something, the larger our pupils become. Many of our current studies involve measuremnts with a pupillometric instrument that can be found in our main laboratory. This device uses infrared light and special cameras to track and record the position of each eye, where it is looking on the computer screen and the size of the pupil. Together, these measurements allow us to monitor when and to what degree participants are attending to any given item on the screen.</p>
+    //               </div>
+    //             </div>
+
+    //               <br />
+
+    //             <div className="card mx-auto mw-100 " style={{ width: '70%', height: '20%'}}>
+    //               <img className="card-img-top" style = {{ objectFit: 'contain' }} src={electron} alt="Research" />
+    //               <h5 className="card-header text-center">Electroencephalography (EEG)</h5>
+    //               <div className="card-body" style = {{ paddingBottom: "15px" }}>
+    //                   <p className="card-text" style = {{ fontSize: '16px'}} >EEG is an electrophysiological monitoring method to record electrical activity of the brain. This instrument has been newly adopted into the Neuro Fog laboratory! It is a noninvasive measuremnt which uses eletrodes placed on one's scalp to measures voltage fluctuations resulting from ionic current within the neurons of the brain. Future projects will make use of this EEG machine.</p>
+    //               </div>
+    // </div>  */}
