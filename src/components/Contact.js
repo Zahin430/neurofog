@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // import experimet from '../experiments/visualltm.html'
 
 export default class Contact extends Component {
-  state = {
+    state = {
     name: '',
     email: '',
     feedback: '',
