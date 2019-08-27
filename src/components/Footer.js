@@ -8,7 +8,7 @@ class Footer extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className='footer-container'>
     
                 <div className="footer">
                     © All Rights Reserved 2019
