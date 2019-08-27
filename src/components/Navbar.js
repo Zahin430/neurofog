@@ -34,15 +34,15 @@ const Navbar = () => {
           <Link className="nav-link" style={{ textDecoration: 'none'  }} to ="/team">OUR TEAM</Link>
         </li>
         <li className="nav-item">
+          <Link className="nav-link" style={{ textDecoration: 'none' }} to ="/alumni">OUR ALUMNI</Link>
+        </li>
+        <li className="nav-item">
           <Link className="nav-link" style={{ textDecoration: 'none' }} to ="/involved">GET INVOLVED</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" style={{ textDecoration: 'none' }} to ="/contact">CONTACT US</Link>
         </li>
         <li className="nav-item">
-        {/* <a className="nav-link" href="#!">
-        <i className="fab fa-facebook"></i>
-        </a> */}
         </li>  
       </ul>
     </div>
