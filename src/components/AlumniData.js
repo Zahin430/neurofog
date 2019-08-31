@@ -15,7 +15,7 @@ let alumdata = {
             "role": "Lab Manager: 2017-2018",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'julia',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -28,7 +28,7 @@ let alumdata = {
             "role": "PhD Student: 2017-2019",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'landon2',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -38,7 +38,7 @@ let alumdata = {
             "role": "Visiting PhD Student: 2016-2017",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -50,7 +50,7 @@ let alumdata = {
             "role": "Honours Student: 2018-2019",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'liam',
-            width: "85%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -60,7 +60,7 @@ let alumdata = {
             "role": "Honours Student: 2018-2019",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'iain2',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -70,7 +70,7 @@ let alumdata = {
             "role": "Honours Student | Directed Studies: 2016-2018",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -80,7 +80,7 @@ let alumdata = {
             "role": "Honours Student: 2017-2018",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -90,7 +90,7 @@ let alumdata = {
             "role": "Honours Student: 2017-2018",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -103,7 +103,7 @@ let alumdata = {
             "role": "Directed Studies: 2017-2018",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -113,7 +113,7 @@ let alumdata = {
             "role": "Directed Studies: 2016-2017",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -125,7 +125,7 @@ let alumdata = {
             "role": "Volunteer: 2016-2018",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -135,7 +135,7 @@ let alumdata = {
             "role": "Volunteer: 2016-2017",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -145,7 +145,7 @@ let alumdata = {
             "role": "Volunteer: 2016-2017",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
@@ -155,7 +155,7 @@ let alumdata = {
             "role": "Volunteer: 2016-2017",
             "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
-            width: "65%",
+            width: "100%",
             width2: "100%",
             width3: "100%",
             height: '100%'
