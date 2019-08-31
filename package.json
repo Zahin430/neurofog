@@ -11,7 +11,10 @@
     "jspsych": "^6.0.0",
     "jspsych-react": "^0.2.1",
     "nodemailer": "^6.2.1",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-alert": "^5.5.0",
+    "react-alert-template-basic": "^1.0.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-animate-on-scroll": "^2.1.5",
     "react-animated-css": "^1.2.1",
@@ -23,7 +26,8 @@
     "react-scripts": "3.0.1",
     "react-scroll": "^1.7.11",
     "react-scrollable-anchor": "^0.6.1",
-    "react-sticky-footer": "0.1.0-rc3"
+    "react-sticky-footer": "0.1.0-rc3",
+    "react-transition-group": "^4.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
