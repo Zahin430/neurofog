@@ -17,10 +17,10 @@ body{
   font-size: 120%;
 }
 
-.team-card {
+/* .team-card {
   width: 80%;
   height: 80%;
-}
+} */
 
 .nav-link:hover {
   opacity: 0.5;
