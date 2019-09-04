@@ -8,6 +8,10 @@ import Publication from './Publication';
 
 
 export default class Research extends Component {
+    constructor(props) {
+        super(props)
+        console.log(props)
+    }
     componentDidMount() {
         window.scrollTo(0, 0);
     }
@@ -44,7 +48,7 @@ export default class Research extends Component {
                 </div>
 
 
-                <div class="col-md-12 no-padding lib-item" data-category="view">
+                <div class="no-padding lib-item" data-category="view">
                     <div class="lib-panel align-middle">
                         <div class="row box-shadow">
                             <div class="col-md-6">
@@ -52,7 +56,7 @@ export default class Research extends Component {
                             </div>
                             <div class="col-md-6">
                                 <div class="lib-row lib-header">
-                                    <h3>Pupillometry</h3>
+                                    <h5>Pupillometry</h5>
                                     <div class="lib-header-seperator"></div>
                                 </div>
                                 <div class="lib-row lib-desc">
@@ -68,8 +72,8 @@ export default class Research extends Component {
                                 <img class="lib-img-show" src={electron} alt='' />
                             </div>
                             <div class="col-md-6" style = {{width: 'auto'}}>
-                                <div class="lib-row lib-header" >
-                                    <h3>Electroencephalography</h3>
+                                <div class="lib-row lib-header" style = {{width: 'auto'}} >
+                                    <h5>Electroencephalography</h5>
                                     <div class="lib-header-seperator"></div>
                                 </div>
                                 <div class="lib-row lib-desc">
