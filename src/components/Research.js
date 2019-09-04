@@ -8,10 +8,6 @@ import Publication from './Publication';
 
 
 export default class Research extends Component {
-    constructor(props) {
-        super(props)
-        console.log(props)
-    }
     componentDidMount() {
         window.scrollTo(0, 0);
     }
