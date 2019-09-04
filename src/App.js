@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
+
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import Team from './components/Team';
@@ -14,9 +15,8 @@ import experiment from './components/Experiment'
 import Alumni from './components/Alumni';
 
 class App extends Component{
-  
-
   render(){
+
     return (
       <Router>
       <Fragment>
@@ -27,10 +27,6 @@ class App extends Component{
         <section>
 
           <Switch>
-      
-          {/*  <Route exact path= '/team' 
-              render = { () => <Team teamData = {teamData} />} /> */}
-
             <Route exact path= '/team' component={ Team } />  
             <Route exact path= '/research' component={ Research } />
             <Route exact path= '/involved' component={ Involved } />
@@ -49,14 +45,13 @@ class App extends Component{
         </Fragment>
   
       </Router>    
-    );
+      );
   }
 
 }
 
 App.propTypes = {
   env: PropTypes.object.isRequired,
-  teamData : PropTypes.object.isRequired
 };
 
 
