@@ -37,7 +37,7 @@ let teamData = {
         {
             "name": "Kelsi Hall",
             "role": "MSc Student",
-            "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
+            "description": "citation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'kelsi',
             width: "100%",
             width2: "100%",
@@ -48,18 +48,18 @@ let teamData = {
         {
             "name": "Julia Rose",
             "role": "MSc Student (Co-supervised w/ Dr. Joshua Rash)",
-            "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
+            "description": "citation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
             width: "100%",
             width2: "100%",
             width3: "100%",
-            height: '100%'
+            height: '80%'
 
         },
         {
             "name": "Hannah Willoughby ",
             "role": "MSc Student",
-            "description": "Hannah is a Master's student and has been involved in various studies examining recognition and recall memory. Currently, she is interested in using EEG to further her understanding of the cognitive processes underlying our memory. ",
+            "description": "Hannah is a Master's student in the laboratory having started in 2018. Her thesis will use pupillometry to better understand the mechanisms involved in distinctive encoding. ",
             "image": 'hannah',
             width: "100%",
             width2: "100%",
@@ -73,7 +73,7 @@ let teamData = {
         {
             "name": "Chelsea Lahey",
             "role": "Honours Student ",
-            "description": "Member of the Laboratory.",
+            "description": "Chelsea is currently completing her BA (Hons.) in psychology with a minor in English. She is working on her honours project dealing with intentional forgetting in natural environments with Dr. Fawcett.",
             "image": 'chelsea',
             width: "100%",
             width2: "100%",
@@ -83,7 +83,7 @@ let teamData = {
         {
             "name": "Michael Foote ",
             "role": "Honors Student (Co-supervised w/ Dr. Michelle Ploughman)",
-            "description": "Julia is currently completing her BSc (Hons) in Psychology. She is working with Dr. Fawcett and Dr. Rash to determine the cognitive mechanisms involved in managing past and future painful events.",
+            "description": " occaecat consectetur cupidatat velit deserunt",
             "image": 'avatarMen',
             width: "100%",
             width2: "100%",
@@ -151,8 +151,8 @@ let teamData = {
 
         {
             "name": "Vanessa Strong",
-            "role": "Member",
-            "description": "Liam is a 4th year hons student studying auditory working memory. From his love for music he became interested in how we percieve and understand music, leading to his current research.",
+            "role": "Volunteer",
+            "description": "Vanessa is current Psy.D. student working with Dr. Joshua Rash. She is collaborating on research in the NeuroFog Laboratory involving the brain mechanisms underlying generalized anxiety.",
             "image": 'avatarMen',
             width: "100%",
             width2: "100%",

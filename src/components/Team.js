@@ -36,14 +36,14 @@ export default class Team extends Component {
                                         <div className="img-responsive mb-4 mr-4 team" style={{ width: item.width || '100%', height: item.height }}>
                                             <img id="image" src={require(`./img/${item.image}.jpg`)} className="rounded img-responsive z-depth-1 shadow" style={{ width: item.width2 || '100%', height: '100%' }} alt="avatar" />
                                         </div>
-
+                                        
                                         <div className="col-md-6" style={{ width: item.width3 }}>
-                                            <h4 className="font-weight-bold mb-3">{item.name}</h4>
-                                            <h6 className="font-weight-bold grey-text mb-3">{item.role}</h6>
-                                            <p className="grey-text">{item.description}</p>
+                                        <h4 className="font-weight-bold mb-3">{item.name}</h4>
+                                        <h6 className="font-weight-bold grey-text mb-3">{item.role}</h6>
+                                        <p className="grey-text">{item.description}</p>
                                         </div>
                                     </div>
-
+                                        
                                 )
                             })
                         }
