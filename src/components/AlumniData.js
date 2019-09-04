@@ -8,7 +8,7 @@ let alumdata = {
             width: "100%",
             width2: "100%",
             width3: "100%",
-            height: '100%'
+            height: '90%'
         },        
         {
             "name": "Julia Greenham ",
@@ -18,7 +18,7 @@ let alumdata = {
             width: "100%",
             width2: "100%",
             width3: "100%",
-            height: '100%'
+            height: '90%'
         },
     ],
 
@@ -48,12 +48,12 @@ let alumdata = {
         {
             "name": "Liam Foley",
             "role": "Honours Student: 2018-2019",
-            "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
+            "description": "Liam completed his honours dissertation on auditory working memory in musicians and non-musicians. He now studies music cognition at McMaster University in the MAPLE lab.",
             "image": 'liam',
             width: "100%",
             width2: "100%",
             width3: "100%",
-            height: '100%'
+            height: '80%'
         },
         {
             "name": "Iain Gamba",
