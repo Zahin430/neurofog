@@ -15,23 +15,12 @@ let teamData = {
         {
             "name": "Chris Clarke",
             "role": "MSc Student",
-            "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
-            "image": 'avatarMen',
+            "description": "Chris is a Master's student in the laboratory having started in 2019. His thesis will use EEG and behavioral measures to better understand the mechanisms behind the executive control and suppression of memory in individuals with generalized anxiety disorder.",
+            "image": 'chris',
             width: "100%",
             width2: "100%",
             width3: "100%",
-            height: '100%'
-
-        },
-        {
-            "name": "Dalainey Drakes",
-            "role": "MSc Student (Co-supervised w/ Dr. Emily Fawcett)",
-            "description": "Duis aliquip id elit sunt eu sit consectetur sit ex incididunt excepteur. Incididunt quis aute pariatur consequat veniam consectetur et nisi fugiat. Fugiat excepteur fugiat id cillum in ut. Officia incididunt aliquip anim est minim ipsum. Pariatur nulla pariatur minim esse enim ea irure. Eu sint do eu incididunt exercitation consequat fugiat. Amet reprehenderit adipisicing ut do.",
-            "image": 'avatarMen',
-            width: "100%",
-            width2: "100%",
-            width3: "100%",
-            height: '100%'
+            height: '25vw'
 
         },
         {
@@ -42,7 +31,7 @@ let teamData = {
             width: "100%",
             width2: "100%",
             width3: "100%",
-            height: '100%'
+            height: '25vw'
 
         },
         {
@@ -50,6 +39,17 @@ let teamData = {
             "role": "MSc Student (Co-supervised w/ Dr. Joshua Rash)",
             "description": "citation consequat fugiat. Amet reprehenderit adipisicing ut do.",
             "image": 'avatarMen',
+            width: "100%",
+            width2: "100%",
+            width3: "100%",
+            height: '80%'
+
+        },
+        {
+            "name": "Dalainey Hilary Drakes ",
+            "role": "MSc Student (Co-supervised w/ Dr. Emily Fawcett)",
+            "description": "Dalainey is commencing the first year of her MSc degree with current interest in anxiety related disorders and improving psychological treatment outcomes. She brings forward experience in the field and a passion for working directly with vulnerable populations including children, adolescents, adults, and forensic populations in times of personal crisis. Presently, Dalainey is conducting clinical epidemiological research on prevalence, comorbidity, and predictors of obsessive compulsive disorder across the lifespan.",
+            "image": 'Drakes_2',
             width: "100%",
             width2: "100%",
             width3: "100%",
@@ -66,8 +66,7 @@ let teamData = {
             width3: "100%",
             height: '100%'
 
-        },
-
+        }
     ],
     "Honors": [
         {
@@ -110,23 +109,20 @@ let teamData = {
             width2: "100%",
             width3: "100%",
             height: '100%'
-        },
-        
-
-
+        }
     ],
 
     "Volunteers": [
 
         {
-            "name": "Aime Hirwa",
+            "name": "Aimé Hirwa",
             "role": "Volunteer",
-            "description": "Kathleen is a new volunteer in the Neuro Fog laboratory.",
-            "image": 'avatarMen',
+            "description": "My name is Aimé, I’m a student volunteer in the Neurofog lab",
+            "image": 'Hirwa',
             width: "100%",
             width2: "100%",
             width3: "100%",
-            height: '100%'
+            height: '80%'
         },
         {
             "name": "Cierra O'Keefe",
@@ -136,7 +132,7 @@ let teamData = {
             width: "100%",
             width2: "100%",
             width3: "100%",
-            height: '100%'
+            height: '80%'
         },
         {
             "name": "Kathleen Prior",

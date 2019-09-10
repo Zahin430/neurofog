@@ -5,7 +5,7 @@ import teamData from './teamData'
 export default class Team extends Component {
     constructor(props) {
         super(props);
-
+        
         this.state = {
             collections: teamData
         }
@@ -34,13 +34,13 @@ export default class Team extends Component {
                                 return (
                                     <div id="team-card" className="col-xl-6 col-md-12 col-sm-12 col-lg-12 pt-5 mb-5 d-md-flex justify-content-center" >
                                         <div className="img-responsive mb-4 mr-4 team" style={{ width: item.width || '100%', height: item.height }}>
-                                            <img id="image" src={require(`./img/${item.image}.jpg`)} className="rounded img-responsive z-depth-1 shadow" style={{ width: item.width2 || '100%', height: '100%' }} alt="avatar" />
+                                            <img id="image" src={require(`./img/${item.image}.jpg`)} className="rounded z-depth-1 shadow" style={{ width: item.width2 || '100%', height: '100%' }} alt="avatar" />
                                         </div>
                                         
                                         <div className="col-md-6" style={{ width: item.width3 }}>
-                                        <h4 className="font-weight-bold mb-3">{item.name}</h4>
-                                        <h6 className="font-weight-bold grey-text mb-3">{item.role}</h6>
-                                        <p className="grey-text">{item.description}</p>
+                                            <h4 className="font-weight-bold mb-3">{item.name}</h4>
+                                            <h6 className="font-weight-bold grey-text mb-3">{item.role}</h6>
+                                            <p className="grey-text">{item.description}</p>
                                         </div>
                                     </div>
                                         
@@ -111,8 +111,8 @@ export default class Team extends Component {
                         {
                             collections.Volunteers.map((item) => {
                                 return (
-                                    <div id="team-card" className="col-xl-6 col-md-12 col-sm-12 col-lg-12 pt-5 mb-5 d-md-flex justify-content-center" >
-                                        <div className="img-responsive mb-4 mr-4 team" style={{ width: item.width || '100%', height: item.height }}>
+                                    <div id="team-card" className="col-xl-6 col-md-12 mb-3 col-sm-12 col-lg-12 pt-3 d-md-flex justify-content-center" >
+                                        <div className="img-responsive mr-4 team" style={{ width: item.width || '100%', height: item.height }}>
                                             <img id="image" src={require(`./img/${item.image}.jpg`)} className="rounded img-responsive z-depth-1 shadow" style={{ width: item.width2 || '100%', height: '100%' }} alt="avatar" />
                                         </div>
 
