@@ -19,9 +19,8 @@ let alumdata = {
             width2: "100%",
             width3: "100%",
             height: '90%'
-        },
+        }
     ],
-
     "Phd": [
         {
             "name": "Landon Churchill",
@@ -94,9 +93,8 @@ let alumdata = {
             width2: "100%",
             width3: "100%",
             height: '100%'
-        },
+        }
     ],
-
     "directed" : [
         {
             "name": "Jenny Tiller",

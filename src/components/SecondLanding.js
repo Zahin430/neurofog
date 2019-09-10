@@ -12,7 +12,7 @@ export default class SecondLanding extends Component {
           "link" : "Our Team",
           "route": "/team",
           "desc": "View our current and past members of the Neuro Fog Laboratory.",
-          "height": "67%"
+          // "height": "100%"
 
         },
         {
@@ -20,14 +20,14 @@ export default class SecondLanding extends Component {
           "link" : "Our Research",
           "route": "/research",
           "desc": "Take a look at what research goes on in our laboratory.",
-          "height": "67%"
+          // "height": "100%"
         },
         {
           "image" : "participation_2.jpeg",
           "link" : "Become a Participant",
           "route": "/involved",
           "desc": "Interested in participting in studies? Click to find out more!",
-          "height": "67%"
+          // "height": "100%"
         }
 
       ]
@@ -38,7 +38,7 @@ export default class SecondLanding extends Component {
         items.card.map((item) => {
           return (
             <div className="card shadow bg-white rounded" id="card1">
-            <img className="card-img-top" src={require(`./img/${item.image}`)} style = {{height: item.height}} alt="Card1" />
+            <img className="card-img-top landing-card" src={require(`./img/${item.image}`)} style = {{height: item.height}} alt="Card1" />
             <div className="card-body">
               <h5 className="card-title">
                 <Link className="btn btn-primary" style={{ textDecoration: 'none', color: 'white' }} to= {item.route}>{item.link}</Link>
