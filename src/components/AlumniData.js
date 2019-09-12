@@ -45,6 +45,17 @@ let alumdata = {
     ],
     "Honors": [
         {
+            "name": "Julia Rose",
+            "role": "Honors Student (Co-supervised w/ Dr. Joshua Rash)",
+            "description": "Julia has completed her BSc (Hons) in Psychology under the supervision of Dr. Fawcett and Dr. Rash to determine the cognitive mechanisms involved in managing past and future painful events.",
+            "image": 'avatarMen',
+            width: "100%",
+            width2: "100%",
+            width3: "100%",
+            height: '100%'
+
+        },
+        {
             "name": "Liam Foley",
             "role": "Honours Student: 2018-2019",
             "description": "Liam completed his honours dissertation on auditory working memory in musicians and non-musicians. He now studies music cognition at McMaster University in the MAPLE lab.",
@@ -52,7 +63,7 @@ let alumdata = {
             width: "100%",
             width2: "100%",
             width3: "100%",
-            height: '80%'
+            height: '100%'
         },
         {
             "name": "Iain Gamba",
@@ -72,7 +83,7 @@ let alumdata = {
             width: "100%",
             width2: "100%",
             width3: "100%",
-            height: '100%'
+            height: '80%'
         },
         {
             "name": "Brittany Flood",

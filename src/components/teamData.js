@@ -26,23 +26,12 @@ let teamData = {
         {
             "name": "Kelsi Hall",
             "role": "MSc Student",
-            "description": "citation consequat fugiat. Amet reprehenderit adipisicing ut do.",
+            "description": "Master's student interested in the influence of emotion on attention and memory",
             "image": 'kelsi',
             width: "100%",
             width2: "100%",
             width3: "100%",
             height: '25vw'
-
-        },
-        {
-            "name": "Julia Rose",
-            "role": "MSc Student (Co-supervised w/ Dr. Joshua Rash)",
-            "description": "citation consequat fugiat. Amet reprehenderit adipisicing ut do.",
-            "image": 'avatarMen',
-            width: "100%",
-            width2: "100%",
-            width3: "100%",
-            height: '80%'
 
         },
         {
@@ -82,7 +71,7 @@ let teamData = {
         {
             "name": "Michael Foote ",
             "role": "Honors Student (Co-supervised w/ Dr. Michelle Ploughman)",
-            "description": " occaecat consectetur cupidatat velit deserunt",
+            "description": "occaecat consectetur cupidatat velit deserunt",
             "image": 'avatarMen',
             width: "100%",
             width2: "100%",
@@ -127,7 +116,7 @@ let teamData = {
         {
             "name": "Cierra O'Keefe",
             "role": "Volunteer",
-            "description": "Iain is completing his BSc (Hons) in Behavioural Neuroscience with hopes to persue Medicine. He is currently working on his Honours project with Dr. Fawcett.",
+            "description": "My name is Cierra, I’m a student volunteer in the Neurofog lab",
             "image": 'avatarMen',
             width: "100%",
             width2: "100%",
@@ -137,7 +126,7 @@ let teamData = {
         {
             "name": "Kathleen Prior",
             "role": "Volunteer",
-            "description": "Iain is completing his BSc (Hons) in Behavioural Neuroscience with hopes to persue Medicine. He is currently working on his Honours project with Dr. Fawcett.",
+            "description": "My name is Kathleen, I’m a student volunteer in the Neurofog lab",
             "image": 'avatarMen',
             width: "100%",
             width2: "100%",
@@ -148,7 +137,7 @@ let teamData = {
         {
             "name": "Vanessa Strong",
             "role": "Volunteer",
-            "description": "Vanessa is current Psy.D. student working with Dr. Joshua Rash. She is collaborating on research in the NeuroFog Laboratory involving the brain mechanisms underlying generalized anxiety.",
+            "description": "My name is Vanessa, I’m a student volunteer in the Neurofog lab",
             "image": 'avatarMen',
             width: "100%",
             width2: "100%",
